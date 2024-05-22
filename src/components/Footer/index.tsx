@@ -42,7 +42,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <InstagramLogo size={32} />
+                  <InstagramLogo size={24} />
                 </Link>
               </span>
             </div>
@@ -54,7 +54,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <WhatsappLogo size={32} />
+                  <WhatsappLogo size={24} />
                 </Link>
               </span>
             </div>
@@ -66,7 +66,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <LinkedinLogo size={32} />
+                  <LinkedinLogo size={24} />
                 </Link>
               </span>
             </div>
@@ -78,7 +78,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <GithubLogo size={32} />
+                  <GithubLogo size={24} />
                 </Link>
               </span>
             </div>
