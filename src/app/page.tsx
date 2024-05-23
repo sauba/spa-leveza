@@ -7,9 +7,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-gradient-to-br from-purple-700 to-purple-400 items-center justify-center">
+    <main className="flex min-h-screen flex-col bg-gradient-to-br from-purple-700 via-purple-600 to-purple-400 items-center justify-center">
       <Header />
-      <Image src={`/logo.svg`} width={600} height={600} alt="Leveza Para Viver logo" className={`min-h-screen animate-pulse`} />
+      <Image src={`/logo.svg`} width={600} height={600} alt="Leveza Para Viver logo" className={`min-h-screen animate-pulse cursor-none`} />
       <About />
       <Footer />
     </main>
