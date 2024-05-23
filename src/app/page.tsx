@@ -1,7 +1,6 @@
 'use client'
 
 import About from "@/components/About";
-import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
 
@@ -11,7 +10,6 @@ export default function Home() {
       <Header />
       <Image src={`/logo.svg`} width={600} height={600} alt="Leveza Para Viver logo" className={`min-h-screen animate-pulse cursor-none`} />
       <About />
-      <Footer />
     </main>
   );
 }
