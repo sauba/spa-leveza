@@ -8,7 +8,9 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-gradient-to-br from-purple-700 via-purple-600 to-purple-400 items-center justify-center">
       <Header />
+      <div className={`min-h-screen`}>
       <Image src={`/logo.svg`} width={300} height={300} alt="Leveza Para Viver logo" className={`animate-pulse cursor-none py-16`} />
+      </div>
       <About />
     </main>
   );
