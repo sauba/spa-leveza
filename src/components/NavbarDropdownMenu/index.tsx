@@ -27,7 +27,7 @@ export default function NavbarDropdownMenu() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Menu.Items className="origin-top-left absolute left-0 w-52 bg-transparent">
+              <Menu.Items className="origin-top-left absolute left-0 w-64 bg-transparent">
                 <div className="flex-col justify-start items-start">
                   <Menu.Item>
                     {({ active }) => (
@@ -38,8 +38,8 @@ export default function NavbarDropdownMenu() {
                           items-center
                           my-2                             
                           ${active
-                            ? "bg-transparent text-red-50 text-2xl font-bold animate-wiggle"
-                            : "bg-transparent text-red-50 font-bold"
+                            ? "bg-purple-800 text-red-50 text-2xl font-bold animate-wiggle"
+                            : "bg-purple-800 text-red-50 font-bold"
                           }
                         `}
                       >
@@ -69,8 +69,8 @@ export default function NavbarDropdownMenu() {
                           items-center
                           my-2                             
                           ${active
-                            ? "bg-transparent text-red-50 text-2xl font-bold animate-wiggle"
-                            : "bg-transparent text-red-50 font-bold"
+                            ? "bg-purple-800 text-red-50 text-2xl font-bold animate-wiggle"
+                            : "bg-purple-800 text-red-50 font-bold"
                           }
                         `}
                       >
@@ -91,6 +91,7 @@ export default function NavbarDropdownMenu() {
                     )}
                   </Menu.Item>
 
+
                   <Menu.Item>
                     {({ active }) => (
                       <div
@@ -100,13 +101,12 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-transparent text-red-50 text-2xl font-bold animate-wiggle"
-                            : "bg-transparent text-red-50 font-bold"
+                            ? "bg-purple-500 text-red-50 text-2xl font-bold hover:cursor-none"
+                            : "bg-purple-500 text-red-50 font-bold"
                           }
                         `}
                       >
-                        <a
-                          href="#projetos"
+                        <p
                           className={`
                             flex
                             items-center
@@ -118,7 +118,41 @@ export default function NavbarDropdownMenu() {
                             hover:text-lg
                           `}
                         >
-                          Projetos
+                          Serviços
+                        </p>
+                      </div>
+                    )}
+                  </Menu.Item>
+
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          my-2
+                          justify-center
+                          items-center
+                          ${active
+                            ? "bg-purple-800 text-red-50 text-xl font-bold animate-wiggle"
+                            : "bg-purple-800 text-red-50 font-bold"
+                          }
+                        `}
+                      >
+                        <a
+                          href="#levetarot"
+                          className={`
+                            flex
+                            items-center
+                            px-4
+                            py-2
+                            text-sm
+                            gap-3
+                            hover:font-bold
+                            hover:text-lg
+                          `}
+                        >
+                          Leve Tarot
                         </a>
                       </div>
                     )}
@@ -133,8 +167,74 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-transparent text-red-50 text-2xl font-bold animate-wiggle"
-                            : "bg-transparent text-red-50 font-bold"
+                            ? "bg-purple-800 text-red-50 text-2xl text-center font-bold animate-wiggle"
+                            : "bg-purple-800 text-red-50 font-bold"
+                          }
+                        `}
+                      >
+                        <a
+                          href="#terapiasholisticas"
+                          className={`
+                            flex
+                            items-center
+                            px-2
+                            py-2
+                            text-sm
+                            gap-3
+                            hover:font-bold
+                            hover:text-lg
+                          `}
+                        >
+                          Terapias Holísticas
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          my-2
+                          justify-center
+                          items-center
+                          ${active
+                            ? "bg-purple-800 text-red-50 text-2xl text-center font-bold animate-wiggle"
+                            : "bg-purple-800 text-red-50 font-bold"
+                          }
+                        `}
+                      >
+                        <a
+                          href="#gruposdeterapias"
+                          className={`
+                            flex
+                            items-center
+                            px-2
+                            py-2
+                            text-sm
+                            gap-3
+                            hover:font-bold
+                            hover:text-lg
+                          `}
+                        >
+                          Grupos de Terapias
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          my-2
+                          justify-center
+                          items-center
+                          ${active
+                            ? "bg-purple-500 text-red-50 text-2xl font-bold hover:cursor-none"
+                            : "bg-purple-500 text-red-50 font-bold"
                           }
                         `}
                       >
@@ -166,8 +266,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-transparent text-red-50 text-2xl font-bold animate-wiggle"
-                            : "bg-transparent text-red-50 font-bold"
+                            ? "bg-purple-800 text-red-50 text-2xl font-bold animate-wiggle"
+                            : "bg-purple-800 text-red-50 font-bold"
                           }
                         `}
                       >
