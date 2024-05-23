@@ -16,7 +16,7 @@ export default function About() {
         text-white
         font-caveat
       `} id="about">
-      <p className={`text-center xl:text-6xl animate-skew-stop tracking-widest`}>Sobre</p>
+      <p className={`text-center xl:text-6xl animate-skew-stop tracking-widest lg:pt-32`}>Sobre</p>
       <p className={`text-center xl:text-5xl tracking-wider leading-loose lg:pt-32`}>
         O Leveza Para Viver é a manifestação de uma filosofia de vida, da Mulher e Terapeuta, Daniele Andrade. Um espaço de evolução que coloca em movimento, diferentes projetos terapêuticos, te apresentando caminhos para uma vida com mais Leveza Para Viver.
       </p>
