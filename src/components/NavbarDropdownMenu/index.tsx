@@ -1,5 +1,5 @@
 import { Menu, Transition } from "@headlessui/react"
-import { ListBullets } from "@phosphor-icons/react"
+import { House, ListBullets } from "@phosphor-icons/react"
 import { Fragment } from "react"
 
 export default function NavbarDropdownMenu() {
@@ -29,6 +29,37 @@ export default function NavbarDropdownMenu() {
             >
               <Menu.Items className="origin-top-left absolute left-0 w-52 bg-transparent">
                 <div className="flex-col justify-start items-start">
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          justify-center
+                          items-center
+                          my-2                             
+                          ${active
+                            ? "bg-transparent text-red-50 text-2xl font-bold animate-wiggle"
+                            : "bg-transparent text-red-50 font-bold"
+                          }
+                        `}
+                      >
+                        <a
+                          href="/"
+                          className={`
+                            flex
+                            items-center
+                            px-4
+                            py-2
+                            text-sm
+                            hover:text-lg
+                          `}
+                        >
+                          <House size={32} weight="thin" color="white" className={`hover:animate-wiggle hover:transition-transform hover:scale-125`} />
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
+
                   <Menu.Item>
                     {({ active }) => (
                       <div

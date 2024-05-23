@@ -1,8 +1,10 @@
 export default function About() {
   return (
     <div className={`
+        w-full
+        min-h-screen
         about
-        flex-col
+        justify-center
         items-center
         text-center
         m-4
@@ -10,16 +12,13 @@ export default function About() {
         p-4
         lg:p-8
         outline-none
-        bg-amber-950
-        bg-opacity-70
+        border-none
         text-white
         font-caveat
-        rounded-3xl
       `} id="about">
-      <p className={`text-center xl:text-6xl animate-skew-stop tracking-wider`}>O Que É ?</p>
-      <p className={`text-center xl:text-5xl tracking-wider`}>
-        O Círculo Lunar para Mulheres é um grupo terapêutico, exclusivo para MULHERES,
-        onde nutrimos o nosso processo de autoconhecimento, através do Feminino e seguindo uma Jornada Lunar.
+      <p className={`text-center xl:text-6xl animate-skew-stop tracking-widest`}>Sobre</p>
+      <p className={`text-center xl:text-5xl tracking-wider leading-loose lg:pt-32`}>
+        O Leveza Para Viver é a manifestação de uma filosofia de vida, da Mulher e Terapeuta, Daniele Andrade. Um espaço de evolução que coloca em movimento, diferentes projetos terapêuticos, te apresentando caminhos para uma vida com mais Leveza Para Viver.
       </p>
     </div>
   )
