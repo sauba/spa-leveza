@@ -36,7 +36,7 @@ export default function NavbarDropdownMenu() {
                           flex
                           justify-center
                           items-center
-                          my-2                             
+                                                       
                           ${active
                             ? "bg-purple-800 text-red-50 text-2xl font-bold animate-wiggle"
                             : "bg-purple-800 text-red-50 font-bold"
@@ -67,7 +67,7 @@ export default function NavbarDropdownMenu() {
                           flex
                           justify-center
                           items-center
-                          my-2                             
+                                                      
                           ${active
                             ? "bg-purple-800 text-red-50 text-2xl font-bold animate-wiggle"
                             : "bg-purple-800 text-red-50 font-bold"
@@ -97,7 +97,7 @@ export default function NavbarDropdownMenu() {
                       <div
                         className={`
                           flex
-                          my-2
+                          
                           justify-center
                           items-center
                           ${active
@@ -130,7 +130,7 @@ export default function NavbarDropdownMenu() {
                       <div
                         className={`
                           flex
-                          my-2
+                          
                           justify-center
                           items-center
                           ${active
@@ -163,7 +163,7 @@ export default function NavbarDropdownMenu() {
                       <div
                         className={`
                           flex
-                          my-2
+                          
                           justify-center
                           items-center
                           ${active
@@ -196,7 +196,7 @@ export default function NavbarDropdownMenu() {
                       <div
                         className={`
                           flex
-                          my-2
+                          
                           justify-center
                           items-center
                           ${active
@@ -229,7 +229,7 @@ export default function NavbarDropdownMenu() {
                       <div
                         className={`
                           flex
-                          my-2
+                          
                           justify-center
                           items-center
                           ${active
@@ -262,7 +262,7 @@ export default function NavbarDropdownMenu() {
                       <div
                         className={`
                           flex
-                          my-2
+                          
                           justify-center
                           items-center
                           ${active
