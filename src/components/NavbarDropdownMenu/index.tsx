@@ -4,7 +4,7 @@ import { Fragment } from "react"
 
 export default function NavbarDropdownMenu() {
   return (
-    <div className="flex justify-start items-start border-none outline-none min-h-screen">
+    <div className="flex justify-start items-start border-none outline-none">
       <Menu as="div" className="relative">
         {({ open }) => (
           <Fragment>
