@@ -17,12 +17,12 @@ export default function Footer() {
           Daniele Andrade
         </span>
 
-        <span className={`text-3xl lg:text-5xl pb-1 tracking-wider flex-wrap`}>
+        <span className={`text-2xl lg:text-5xl pb-1 tracking-wider flex-wrap`}>
           Terapeuta
         </span>
 
         <span
-          className={`text-3xl lg:text-4xl tracking-widest flex-wrap`}
+          className={`text-2xl lg:text-4xl tracking-widest flex-wrap`}
         >
           Entre em Contato:
         </span>
