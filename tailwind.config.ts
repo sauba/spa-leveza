@@ -1,3 +1,4 @@
+import { nextui } from '@nextui-org/theme';
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -5,6 +6,7 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@nextui-org/theme/dist/components/(card|ripple).js"
   ],
   theme: {
     extend: {
@@ -134,9 +136,12 @@ const config: Config = {
         'xs': '475px',
         '3xl': '2048px',
         '4xl': '4096px',
+      },
+      colors: {
+        "own-blue": "#a1c8e6"
       }
     },
   },
-  plugins: [],
+  plugins: [nextui()],
 };
 export default config;
