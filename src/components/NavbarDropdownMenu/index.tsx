@@ -109,8 +109,7 @@ export default function NavbarDropdownMenu() {
                             items-center
                             px-4
                             py-2
-                            text-sm
-                            xl:text-2xl
+                            text-2xl
                             hover:cursor-none
                           `}
                         >
@@ -168,6 +167,7 @@ export default function NavbarDropdownMenu() {
                           className={`
                             flex
                             items-center
+                            text-center
                             px-2
                             py-2
                             text-2xl
