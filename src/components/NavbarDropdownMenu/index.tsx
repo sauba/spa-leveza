@@ -266,7 +266,7 @@ export default function NavbarDropdownMenu() {
                             px-4
                             py-2
                             text-2xl
-                            
+                            text-center
                           `}
                         >
                           Caixinha da Leveza
