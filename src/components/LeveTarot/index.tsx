@@ -14,7 +14,7 @@ export default function LeveTarot() {
         outline-none
         border-none
         bg-zinc-300
-      `} id="leveTarot">
+      `} id="levetarot">
       <div>
         <h1 className={`text-center text-8xl font-caveat`}>Leve Tarot</h1>
       </div>
