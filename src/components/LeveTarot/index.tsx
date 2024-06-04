@@ -1,4 +1,4 @@
-import { Accordion, AccordionItem } from "@nextui-org/react";
+import { Accordion, AccordionItem, Button } from "@nextui-org/react";
 
 export default function LeveTarot() {
   return (
@@ -17,7 +17,7 @@ export default function LeveTarot() {
         font-caveat
       `} id="levetarot">
       <div>
-
+        <h1 className={`text-center text-5xl lg:text-8xl`}>Leve Tarot</h1>
       </div>
       <Accordion>
         <AccordionItem indicator key="1" aria-label="O que é o Tarot Terapêutico ?" title="O que é o Tarot Terapêutico ?" className={`text-2xl xl:text-6xl`} >
@@ -36,6 +36,8 @@ export default function LeveTarot() {
           </p>
         </AccordionItem>
       </Accordion>
+
+      <Button className={`rounded-3xl bg-purple-500 text-white text-3xl py-2 px-4`}>Saiba Mais</Button>
     </div>
   )
 }
