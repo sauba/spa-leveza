@@ -8,12 +8,12 @@ export default function NavbarDropdownMenu() {
       <Menu as="div" className="relative">
         {({ open }) => (
           <Fragment>
-            <Menu.Button className="inline-flex justify-items-start rounded-md text-red-50 border-none outline-none">
+            <Menu.Button className="inline-flex justify-items-start rounded-md text-white border-none outline-none">
               <ListBullets
                 size={68}
-                weight="thin"
+                weight="bold"
                 color="white"
-                className={`py-4`}
+                className={`py-4 border-none outline-none`}
               />
             </Menu.Button>
 
@@ -35,11 +35,10 @@ export default function NavbarDropdownMenu() {
                         className={`
                           flex
                           justify-center
-                          items-center
-                                                       
+                          items-center                                                       
                           ${active
-                            ? "bg-purple-800 text-red-50 text-2xl font-bold animate-wiggle"
-                            : "bg-purple-800 text-red-50 font-bold"
+                            ? "bg-lime-400 text-white font-bold hover:rounded-r-full"
+                            : "text-white font-bold"
                           }
                         `}
                       >
@@ -49,12 +48,12 @@ export default function NavbarDropdownMenu() {
                             flex
                             items-center
                             px-4
-                            py-2
+                            pb-2
                             text-sm
                             hover:text-lg
                           `}
                         >
-                          <House size={32} weight="thin" color="white" className={`hover:animate-wiggle hover:transition-transform hover:scale-125`} />
+                          <House size={32} weight="bold" color="white" />
                         </a>
                       </div>
                     )}
@@ -69,8 +68,8 @@ export default function NavbarDropdownMenu() {
                           items-center
                                                       
                           ${active
-                            ? "bg-purple-800 text-red-50 text-2xl font-bold animate-wiggle"
-                            : "bg-purple-800 text-red-50 font-bold"
+                            ? "bg-lime-400 text-white font-bold hover:rounded-r-full"
+                            : "text-white font-bold"
                           }
                         `}
                       >
@@ -81,8 +80,7 @@ export default function NavbarDropdownMenu() {
                             items-center
                             px-4
                             py-2
-                            text-sm
-                            hover:text-lg
+                            text-2xl
                           `}
                         >
                           Sobre
@@ -90,7 +88,6 @@ export default function NavbarDropdownMenu() {
                       </div>
                     )}
                   </Menu.Item>
-
 
                   <Menu.Item>
                     {({ active }) => (
@@ -101,8 +98,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-purple-500 text-red-50 text-2xl font-bold hover:cursor-none"
-                            : "bg-purple-500 text-red-50 font-bold"
+                            ? "text-white font-bold hover:cursor-none"
+                            : "text-white font-bold"
                           }
                         `}
                       >
@@ -113,9 +110,8 @@ export default function NavbarDropdownMenu() {
                             px-4
                             py-2
                             text-sm
-                            gap-3
-                            hover:font-bold
-                            hover:text-lg
+                            xl:text-2xl
+                            hover:cursor-none
                           `}
                         >
                           Serviços
@@ -124,6 +120,34 @@ export default function NavbarDropdownMenu() {
                     )}
                   </Menu.Item>
 
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          justify-center
+                          items-center
+                          ${active
+                            ? "bg-lime-400 text-white text-center font-bold hover:rounded-r-full"
+                            : "text-white font-bold"
+                          }
+                        `}
+                      >
+                        <a
+                          href="#terapia"
+                          className={`
+                            flex
+                            items-center
+                            px-2
+                            py-2
+                            text-2xl  
+                          `}
+                        >
+                          Terapia
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
 
                   <Menu.Item>
                     {({ active }) => (
@@ -134,8 +158,39 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-purple-800 text-red-50 text-xl font-bold animate-wiggle"
-                            : "bg-purple-800 text-red-50 font-bold"
+                            ? "bg-lime-400 text-white text-center font-bold hover:rounded-r-full"
+                            : "text-white font-bold"
+                          }
+                        `}
+                      >
+                        <a
+                          href="#levezaSelvagem"
+                          className={`
+                            flex
+                            items-center
+                            px-2
+                            py-2
+                            text-2xl
+                            
+                          `}
+                        >
+                          Leveza Selvagem
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          
+                          justify-center
+                          items-center
+                          ${active
+                            ? "bg-lime-400 text-white font-bold hover:rounded-r-full hover:xl:text-2xl"
+                            : "text-white font-bold"
                           }
                         `}
                       >
@@ -146,10 +201,8 @@ export default function NavbarDropdownMenu() {
                             items-center
                             px-4
                             py-2
-                            text-sm
-                            gap-3
-                            hover:font-bold
-                            hover:text-lg
+                            text-2xl
+                            
                           `}
                         >
                           Leve Tarot
@@ -167,74 +220,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-purple-800 text-red-50 text-2xl text-center font-bold animate-wiggle"
-                            : "bg-purple-800 text-red-50 font-bold"
-                          }
-                        `}
-                      >
-                        <a
-                          href="#terapiasholisticas"
-                          className={`
-                            flex
-                            items-center
-                            px-2
-                            py-2
-                            text-sm
-                            gap-3
-                            hover:font-bold
-                            hover:text-lg
-                          `}
-                        >
-                          Terapias Holísticas
-                        </a>
-                      </div>
-                    )}
-                  </Menu.Item>
-
-                  <Menu.Item>
-                    {({ active }) => (
-                      <div
-                        className={`
-                          flex
-                          
-                          justify-center
-                          items-center
-                          ${active
-                            ? "bg-purple-800 text-red-50 text-2xl text-center font-bold animate-wiggle"
-                            : "bg-purple-800 text-red-50 font-bold"
-                          }
-                        `}
-                      >
-                        <a
-                          href="#gruposdeterapias"
-                          className={`
-                            flex
-                            items-center
-                            px-2
-                            py-2
-                            text-sm
-                            gap-3
-                            hover:font-bold
-                            hover:text-lg
-                          `}
-                        >
-                          Grupos de Terapias
-                        </a>
-                      </div>
-                    )}
-                  </Menu.Item>
-
-                  <Menu.Item>
-                    {({ active }) => (
-                      <div
-                        className={`
-                          flex
-                          
-                          justify-center
-                          items-center
-                          ${active
-                            ? "bg-purple-500 text-red-50 text-2xl font-bold hover:cursor-none"
-                            : "bg-purple-500 text-red-50 font-bold"
+                            ? "text-white font-bold hover:cursor-none"
+                            : "text-white font-bold"
                           }
                         `}
                       >
@@ -245,10 +232,10 @@ export default function NavbarDropdownMenu() {
                             items-center
                             px-4
                             py-2
-                            text-sm
+                            text-2xl
                             gap-3
-                            hover:font-bold
-                            hover:text-lg
+                            font-bold
+                            hover:cursor-none
                           `}
                         >
                           Produtos
@@ -262,12 +249,11 @@ export default function NavbarDropdownMenu() {
                       <div
                         className={`
                           flex
-                          
                           justify-center
                           items-center
                           ${active
-                            ? "bg-purple-800 text-red-50 text-2xl font-bold animate-wiggle"
-                            : "bg-purple-800 text-red-50 font-bold"
+                            ? "bg-lime-400 text-white font-bold hover:rounded-r-full"
+                            : "text-white font-bold"
                           }
                         `}
                       >
@@ -278,10 +264,8 @@ export default function NavbarDropdownMenu() {
                             items-center
                             px-4
                             py-2
-                            text-sm
                             gap-3
-                            hover:font-bold
-                            hover:text-lg
+                            text-2xl
                           `}
                         >
                           Contato
