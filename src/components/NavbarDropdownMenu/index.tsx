@@ -249,6 +249,37 @@ export default function NavbarDropdownMenu() {
                       <div
                         className={`
                           flex
+                          
+                          justify-center
+                          items-center
+                          ${active
+                            ? "bg-lime-400 text-white font-bold hover:rounded-r-full hover:xl:text-2xl"
+                            : "text-white font-bold"
+                          }
+                        `}
+                      >
+                        <a
+                          href="#caixinhaLeveza"
+                          className={`
+                            flex
+                            items-center
+                            px-4
+                            py-2
+                            text-2xl
+                            
+                          `}
+                        >
+                          Caixinha da Leveza
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
                           justify-center
                           items-center
                           ${active
