@@ -17,7 +17,7 @@ export default function LeveTarot() {
         font-caveat
       `} id="levetarot">
       <div>
-        <h1 className={`text-center text-5xl lg:text-8xl`}>Leve Tarot</h1>
+        <h1 className={`text-center text-6xl lg:text-8xl`}>Leve Tarot</h1>
       </div>
       <Accordion>
         <AccordionItem indicator key="1" aria-label="O que é o Tarot Terapêutico ?" title="O que é o Tarot Terapêutico ?" className={`text-2xl xl:text-6xl`} >
