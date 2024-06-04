@@ -12,23 +12,23 @@ export default function Footer() {
     >
       <div className={`flex flex-col mt-4 font-pt-mono hover:cursor-none`}>
         <span
-          className={`lg:text-8xl text-center font-allura`}
+          className={`text-3xl lg:text-8xl text-center font-allura`}
         >
           Daniele Andrade
         </span>
 
-        <span className={`lg:text-5xl pb-1 tracking-wider flex-wrap`}>
+        <span className={`text-3xl lg:text-5xl pb-1 tracking-wider flex-wrap`}>
           Terapeuta
         </span>
 
         <span
-          className={`lg:text-4xl tracking-widest flex-wrap`}
+          className={`text-3xl lg:text-4xl tracking-widest flex-wrap`}
         >
           Entre em Contato:
         </span>
 
         <div className={`flex justify-center items-center gap-6 pt-8`}>
-          <div className={`hover:animate-wiggle`}>
+          <div className={`animate-wiggle`}>
             <span className={`text-red-500`}>
               <Link
                 href="https://www.instagram.com/levezaparaviver/"
