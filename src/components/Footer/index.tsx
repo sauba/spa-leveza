@@ -27,7 +27,7 @@ export default function Footer() {
           Entre em Contato:
         </span>
 
-        <div className={`flex justify-center items-center gap-6`}>
+        <div className={`flex justify-center items-center gap-6 pt-8`}>
           <div className={`hover:animate-wiggle`}>
             <span className={`text-red-500`}>
               <Link
