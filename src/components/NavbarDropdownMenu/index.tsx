@@ -12,7 +12,7 @@ export default function NavbarDropdownMenu() {
               <ListBullets
                 size={68}
                 weight="bold"
-                color="white"
+                color="black"
                 className={`py-4 border-none outline-none`}
               />
             </Menu.Button>
