@@ -9,17 +9,17 @@ export default function Footer() {
     >
       <div className={`absolute w-full flex flex-col justify-center items-center font-pt-mono hover:cursor-none`}>
         <span
-          className={`text-5xl lg:text-8xl text-center font-allura pt-12 xl:pt-60`}
+          className={`text-5xl lg:text-8xl text-center font-allura pt-12 xl:pt-60 text-sky-700`}
         >
           Daniele Andrade
         </span>
 
-        <span className={`text-2xl lg:text-4xl pb-1 tracking-wider flex-wrap`}>
+        <span className={`text-2xl lg:text-4xl pb-1 tracking-wider flex-wrap text-sky-700`}>
           Terapeuta
         </span>
 
         <span
-          className={`text-2xl lg:text-4xl tracking-widest flex-wrap`}
+          className={`text-2xl lg:text-4xl tracking-widest flex-wrap text-sky-700`}
         >
           Entre em Contato:
         </span>
@@ -49,7 +49,7 @@ export default function Footer() {
             </span>
           </div>
         </div>
-        <p className="font-bad-script text-center">© 2024 Todos os direitos reservados</p>
+        <p className="font-bad-script text-center">© 2024 Todos os direitos reservados.</p>
       </div>
 
       <svg className={`relative pt-12 xl:pt-0`} version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900">

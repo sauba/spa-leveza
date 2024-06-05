@@ -13,7 +13,7 @@ export default function About() {
         text-center
         outline-none
         border-none
-        text-white
+        text-zinc-600
         font-caveat
       `} id="about">
       <Image src={`/logo.svg`} width={600} height={600} alt="Leveza Para Viver logo" className={`animate-pulse cursor-none py-16`} />
