@@ -4,12 +4,12 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer
-      className={`w-full min-h-screen flex-col justify-center text-own-blue items-center text-center`}
+      className={`w-full min-h-screen flex-col justify-center text-red-50 items-center text-center`}
       id="contato"
     >
       <div className={`absolute w-full flex flex-col justify-center items-center font-pt-mono hover:cursor-none`}>
         <span
-          className={`text-5xl lg:text-8xl text-center font-allura`}
+          className={`text-5xl lg:text-8xl text-center font-allura xl:pt-40`}
         >
           Daniele Andrade
         </span>
@@ -52,7 +52,7 @@ export default function Footer() {
         <p className="font-bad-script text-center">© 2024 Todos os direitos reservados</p>
       </div>
 
-      <svg className={`absolute`} version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="75%" viewBox="0 0 1600 900">
+      <svg className={`absolute`} version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900">
         <defs>
           <linearGradient id="bg" x2="0%" y2="100%">
             <stop offset="0%" style={{ stopColor: 'rgba(93, 150, 242, 0.6)' }}></stop>
