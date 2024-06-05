@@ -8,7 +8,7 @@ export default function NavbarDropdownMenu() {
       <Menu as="div" className="relative border-none outline-none">
         {({ open }) => (
           <Fragment>
-            <Menu.Button className="inline-flex justify-items-start rounded-md text-white border-none outline-none">
+            <Menu.Button className="inline-flex justify-items-start rounded-md text-zinc-800 border-none outline-none">
               <ListBullets
                 size={68}
                 weight="bold"
@@ -27,7 +27,7 @@ export default function NavbarDropdownMenu() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Menu.Items className="origin-top-left absolute left-0 w-64 bg-transparent text-zinc-800">
+              <Menu.Items className="origin-top-left absolute left-0 w-64 bg-transparent">
                 <div className="flex-col justify-start items-start">
                   <Menu.Item>
                     {({ active }) => (
@@ -37,8 +37,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center                                                       
                           ${active
-                            ? "bg-lime-400 text-white font-bold hover:rounded-r-full"
-                            : "text-white font-bold"
+                            ? "bg-lime-400 text-zinc-800 font-bold hover:rounded-r-full"
+                            : "text-zinc-800 font-bold"
                           }
                         `}
                       >
@@ -68,8 +68,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "text-white font-bold hover:cursor-none"
-                            : "text-white font-bold"
+                            ? "text-zinc-800 font-bold hover:cursor-none"
+                            : "text-zinc-800 font-bold"
                           }
                         `}
                       >
@@ -97,8 +97,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-white text-center font-bold hover:rounded-r-full"
-                            : "text-white font-bold"
+                            ? "bg-lime-400 text-zinc-800 text-center font-bold hover:rounded-r-full"
+                            : "text-zinc-800 font-bold"
                           }
                         `}
                       >
@@ -128,8 +128,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-white text-center font-bold hover:rounded-r-full"
-                            : "text-white font-bold"
+                            ? "bg-lime-400 text-zinc-800 text-center font-bold hover:rounded-r-full"
+                            : "text-zinc-800 font-bold"
                           }
                         `}
                       >
@@ -160,8 +160,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-white font-bold hover:rounded-r-full hover:xl:text-2xl"
-                            : "text-white font-bold"
+                            ? "bg-lime-400 text-zinc-800 font-bold hover:rounded-r-full hover:xl:text-2xl"
+                            : "text-zinc-800 font-bold"
                           }
                         `}
                       >
@@ -191,8 +191,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "text-white font-bold hover:cursor-none"
-                            : "text-white font-bold"
+                            ? "text-zinc-800 font-bold hover:cursor-none"
+                            : "text-zinc-800 font-bold"
                           }
                         `}
                       >
@@ -224,8 +224,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-white font-bold hover:rounded-r-full hover:xl:text-2xl"
-                            : "text-white font-bold"
+                            ? "bg-lime-400 text-zinc-800 font-bold hover:rounded-r-full hover:xl:text-2xl"
+                            : "text-zinc-800 font-bold"
                           }
                         `}
                       >
@@ -255,8 +255,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-white font-bold hover:rounded-r-full"
-                            : "text-white font-bold"
+                            ? "bg-lime-400 text-zinc-800 font-bold hover:rounded-r-full"
+                            : "text-zinc-800 font-bold"
                           }
                         `}
                       >
