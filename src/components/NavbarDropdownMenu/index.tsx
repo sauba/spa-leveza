@@ -59,7 +59,7 @@ export default function NavbarDropdownMenu() {
                     )}
                   </Menu.Item>
 
-                  <Menu.Item>
+                  {/* <Menu.Item>
                     {({ active }) => (
                       <div
                         className={`
@@ -88,7 +88,7 @@ export default function NavbarDropdownMenu() {
                         </a>
                       </div>
                     )}
-                  </Menu.Item>
+                  </Menu.Item> */}
 
                   <Menu.Item>
                     {({ active }) => (
