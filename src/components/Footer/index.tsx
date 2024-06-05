@@ -9,7 +9,7 @@ export default function Footer() {
     >
       <div className={`absolute w-full flex flex-col justify-center items-center font-pt-mono hover:cursor-none`}>
         <span
-          className={`text-5xl lg:text-8xl text-center font-allura pt-12 xl:pt-60`}
+          className={`text-5xl lg:text-8xl text-center font-allura xl:pt-60`}
         >
           Daniele Andrade
         </span>
@@ -32,7 +32,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <InstagramLogo size={96} />
+                <InstagramLogo size={56} />
               </Link>
             </span>
           </div>
@@ -44,7 +44,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <WhatsappLogo size={96} />
+                <WhatsappLogo size={56} />
               </Link>
             </span>
           </div>
@@ -52,7 +52,7 @@ export default function Footer() {
         <p className="font-bad-script text-center">© 2024 Todos os direitos reservados</p>
       </div>
 
-      <svg className={`relative`} version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900">
+      <svg className={`relative pt-12 xl:pt-0`} version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900">
         <defs>
           <linearGradient id="bg" x2="0%" y2="100%">
             <stop offset="0%" style={{ stopColor: 'rgba(93, 150, 242, 0.6)' }}></stop>
