@@ -7,7 +7,7 @@ export default function Footer() {
       className={`w-full min-h-screen flex-col justify-center text-own-blue items-center text-center`}
       id="contato"
     >
-      <div className={`absolute w-full flex flex-col justify-center items-center mt-64 font-pt-mono hover:cursor-none`}>
+      <div className={`absolute w-full flex flex-col justify-center items-center font-pt-mono hover:cursor-none`}>
         <span
           className={`text-5xl lg:text-8xl text-center font-allura`}
         >
