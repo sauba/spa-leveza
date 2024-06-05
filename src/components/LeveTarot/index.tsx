@@ -1,4 +1,5 @@
-import { Accordion, AccordionItem, Button } from "@nextui-org/react";
+import { Accordion, AccordionItem } from "@nextui-org/react";
+import Link from "next/link";
 
 export default function LeveTarot() {
   return (
@@ -36,7 +37,7 @@ export default function LeveTarot() {
         </AccordionItem>
       </Accordion>
 
-      <Button className={`rounded-3xl bg-purple-500 text-white text-3xl mt-8 py-2 px-4`}>Saiba Mais</Button>
+      <Link href="#" className={`rounded-3xl bg-purple-500 text-white text-2xl mt-8 py-2 px-4 font-caveat`}>Saiba Mais</Link>
     </div>
   )
 }
