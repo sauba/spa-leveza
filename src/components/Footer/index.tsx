@@ -9,7 +9,7 @@ export default function Footer() {
     >
       <div className={`absolute w-full flex flex-col justify-center items-center mt-4 font-pt-mono hover:cursor-none`}>
         <span
-          className={`text-5xl lg:text-8xl text-center font-allura xl:pt-40`}
+          className={`text-5xl lg:text-8xl text-center font-allura pt-40`}
         >
           Daniele Andrade
         </span>
@@ -51,7 +51,6 @@ export default function Footer() {
         </div>
         <p className="font-bad-script text-center">© 2024 Todos os direitos reservados</p>
       </div>
-
 
       <svg className={`absolute`} version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900">
         <defs>
