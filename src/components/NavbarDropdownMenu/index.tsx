@@ -8,7 +8,7 @@ export default function NavbarDropdownMenu() {
       <Menu as="div" className="relative border-none outline-none">
         {({ open }) => (
           <Fragment>
-            <Menu.Button className="inline-flex justify-items-start rounded-md text-zinc-800 border-none outline-none">
+            <Menu.Button className="inline-flex justify-items-start rounded-md text-zinc-600 border-none outline-none">
               <ListBullets
                 size={68}
                 weight="bold"
