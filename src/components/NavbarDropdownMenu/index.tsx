@@ -53,7 +53,7 @@ export default function NavbarDropdownMenu() {
                             hover:text-lg
                           `}
                         >
-                          <House size={32} weight="bold" color="white" />
+                          <House size={32} weight="bold" color="black" />
                         </a>
                       </div>
                     )}
