@@ -80,7 +80,8 @@ export default function NavbarDropdownMenu() {
                             items-center
                             px-4
                             py-2
-                            text-2xl
+                            text-sm
+                            xl:text-2xl
                           `}
                         >
                           Sobre
@@ -139,7 +140,8 @@ export default function NavbarDropdownMenu() {
                             items-center
                             px-2
                             py-2
-                            text-2xl  
+                            text-sm
+                            xl:text-2xl  
                           `}
                         >
                           Terapia
@@ -170,8 +172,8 @@ export default function NavbarDropdownMenu() {
                             text-center
                             px-2
                             py-2
-                            text-2xl
-                            
+                            text-sm
+                            xl:text-2xl
                           `}
                         >
                           Leveza Selvagem
@@ -201,8 +203,8 @@ export default function NavbarDropdownMenu() {
                             items-center
                             px-4
                             py-2
-                            text-2xl
-                            
+                            text-sm
+                            xl:text-2xl
                           `}
                         >
                           Leve Tarot
@@ -265,7 +267,8 @@ export default function NavbarDropdownMenu() {
                             items-center
                             px-4
                             py-2
-                            text-2xl
+                            text-sm
+                            xl:text-2xl
                             text-center
                           `}
                         >
@@ -296,7 +299,8 @@ export default function NavbarDropdownMenu() {
                             px-4
                             py-2
                             gap-3
-                            text-2xl
+                            text-sm
+                            xl:text-2xl
                           `}
                         >
                           Contato
