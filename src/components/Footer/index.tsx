@@ -7,9 +7,9 @@ export default function Footer() {
       className={`w-full flex-col justify-center text-own-blue items-center text-center`}
       id="contato"
     >
-      <div className={`absolute w-full flex flex-col justify-center items-center mt-4 font-pt-mono hover:cursor-none`}>
+      <div className={`absolute w-full flex flex-col justify-center items-center mt-64 font-pt-mono hover:cursor-none`}>
         <span
-          className={`text-5xl lg:text-8xl text-center font-allura pt-40`}
+          className={`text-5xl lg:text-8xl text-center font-allura`}
         >
           Daniele Andrade
         </span>
@@ -24,7 +24,7 @@ export default function Footer() {
           Entre em Contato:
         </span>
 
-        <div className={`flex justify-center items-center gap-6 pt-8`}>
+        <div className={`flex justify-center items-center gap-6 pt-8 z-50`}>
           <div className={`animate-wiggle`}>
             <span className={`text-red-500`}>
               <Link
