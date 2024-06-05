@@ -13,7 +13,7 @@ export default function NavbarDropdownMenu() {
                 size={68}
                 weight="bold"
                 color="black"
-                className={`py-4 border-none outline-none z-50`}
+                className={`py-4 border-none outline-none hover:cursor-pointer`}
               />
             </Menu.Button>
 
