@@ -37,8 +37,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center                                                       
                           ${active
-                            ? "bg-lime-400 text-zinc-800 font-bold hover:rounded-r-full"
-                            : "text-zinc-800 font-bold"
+                            ? "bg-lime-400 text-zinc-600 font-bold hover:rounded-r-full"
+                            : "text-zinc-600 font-bold"
                           }
                         `}
                       >
@@ -68,8 +68,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "text-zinc-800 font-bold hover:cursor-none"
-                            : "text-zinc-800 font-bold"
+                            ? "text-zinc-600 font-bold hover:cursor-none"
+                            : "text-zinc-600 font-bold"
                           }
                         `}
                       >
@@ -97,8 +97,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-zinc-800 text-center font-bold hover:rounded-r-full"
-                            : "text-zinc-800 font-bold"
+                            ? "bg-lime-400 text-zinc-600 text-center font-bold hover:rounded-r-full"
+                            : "text-zinc-600 font-bold"
                           }
                         `}
                       >
@@ -128,8 +128,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-zinc-800 text-center font-bold hover:rounded-r-full"
-                            : "text-zinc-800 font-bold"
+                            ? "bg-lime-400 text-zinc-600 text-center font-bold hover:rounded-r-full"
+                            : "text-zinc-600 font-bold"
                           }
                         `}
                       >
@@ -160,8 +160,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-zinc-800 font-bold hover:rounded-r-full hover:xl:text-2xl"
-                            : "text-zinc-800 font-bold"
+                            ? "bg-lime-400 text-zinc-600 font-bold hover:rounded-r-full hover:xl:text-2xl"
+                            : "text-zinc-600 font-bold"
                           }
                         `}
                       >
@@ -191,8 +191,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "text-zinc-800 font-bold hover:cursor-none"
-                            : "text-zinc-800 font-bold"
+                            ? "text-zinc-600 font-bold hover:cursor-none"
+                            : "text-zinc-600 font-bold"
                           }
                         `}
                       >
@@ -224,8 +224,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-zinc-800 font-bold hover:rounded-r-full hover:xl:text-2xl"
-                            : "text-zinc-800 font-bold"
+                            ? "bg-lime-400 text-zinc-600 font-bold hover:rounded-r-full hover:xl:text-2xl"
+                            : "text-zinc-600 font-bold"
                           }
                         `}
                       >
@@ -255,8 +255,8 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-zinc-800 font-bold hover:rounded-r-full"
-                            : "text-zinc-800 font-bold"
+                            ? "bg-lime-400 text-zinc-600 font-bold hover:rounded-r-full"
+                            : "text-zinc-600 font-bold"
                           }
                         `}
                       >
