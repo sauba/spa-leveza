@@ -1,5 +1,5 @@
 import { Accordion, AccordionItem } from "@nextui-org/react";
-import Link from "next/link";
+import { NavLink } from "react-router-dom";
 
 export default function LeveTarot() {
   return (
@@ -14,8 +14,8 @@ export default function LeveTarot() {
         text-center
         outline-none
         border-none
-        bg-zinc-300
-        text-zinc-600
+        bg-zinc-500
+        text-zinc-100
       `} id="levetarot">
       <div>
         <h1 className={`text-center text-8xl font-caveat`}>Leve Tarot</h1>
@@ -38,7 +38,7 @@ export default function LeveTarot() {
         </AccordionItem>
       </Accordion>
 
-      <Link href="#" className={`rounded-3xl bg-purple-500 text-white text-2xl mt-8 p-4 font-caveat`}>Saiba Mais</Link>
+      <NavLink to="/servicos/tarot" className={`rounded-3xl bg-purple-500 text-white text-2xl mt-8 p-4 font-caveat`}>Saiba Mais</NavLink>
     </div>
   )
 }

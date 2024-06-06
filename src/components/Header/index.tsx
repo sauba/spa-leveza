@@ -1,3 +1,5 @@
+'use client'
+
 import NavbarDropdownMenu from "../NavbarDropdownMenu"
 
 export default function Header() {
