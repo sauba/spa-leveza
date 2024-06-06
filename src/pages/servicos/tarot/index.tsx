@@ -4,8 +4,8 @@ import ModalidadesTarot from "@/components/ModalidadesTarot";
 
 export default function ModalidadesTarotPage() {
   return (
-    <LeveTarotContainer>
+    <div>
       <ModalidadesTarot />
-    </LeveTarotContainer>
+    </div>
   )
 }
