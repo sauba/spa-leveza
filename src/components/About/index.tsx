@@ -8,7 +8,7 @@ export default function About() {
         about
         flex
         flex-col
-        justify-start
+        justify-center
         items-center
         text-center
         outline-none
