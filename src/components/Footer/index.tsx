@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer
-      className={`flex-col justify-start text-zinc-700 items-center text-center`}
+      className={`min-h-screen flex-col justify-start text-zinc-700 items-center text-center`}
       id="contato"
     >
       <div className={`relative flex flex-col justify-center items-center mx-auto`}>
