@@ -9,7 +9,7 @@ export default function Footer() {
       className={`min-h-screen flex-col justify-center text-zinc-700 items-center text-center`}
       id="contato"
     >
-      <div className={`flex flex-col justify-center items-center mx-auto`}>
+      <div className={`flex flex-col justify-center items-center mx-auto pt-96`}>
         <span
           className={`text-4xl lg:text-6xl text-center font-allura text-sky-700`}
         >
