@@ -7,7 +7,7 @@ export default function NavbarDropdownMenu() {
     <div className="flex justify-start items-start border-none outline-none overflow-hidden">
       <Menu as="div" className="absolute border-none outline-none">
         {({ open }) => (
-          <Fragment>
+          <Fragment className={`w-full min-h-screen justify-center items-center`}>
             <Menu.Button className="inline-flex justify-items-start rounded-md text-zinc-100 border-none outline-none">
               <ListBullets
                 size={68}
@@ -26,7 +26,7 @@ export default function NavbarDropdownMenu() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Menu.Items className="origin-top-left absolute left-0 w-60 xl:bg-transparent">
+              <Menu.Items className="origin-top-left absolute left-0 w-60 bg-zinc-400 rounded-r-2xl">
                 <div className="flex-col justify-start items-start">
                   <Menu.Item>
                     {({ active }) => (
@@ -36,7 +36,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center                                                       
                           ${active
-                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-full"
+                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-2xl"
                             : "text-zinc-100 font-bold"
                           }
                         `}
@@ -52,7 +52,7 @@ export default function NavbarDropdownMenu() {
                             hover:text-lg
                           `}
                         >
-                          <House size={32} weight="bold" className={`text-zinc-600`} />
+                          <House size={32} weight="bold" className={`text-zinc-100`} />
                         </a>
                       </div>
                     )}
@@ -96,7 +96,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-zinc-100 text-center font-bold hover:rounded-r-full"
+                            ? "bg-lime-400 text-zinc-100 text-center font-bold hover:rounded-r-2xl"
                             : "text-zinc-100 font-bold"
                           }
                         `}
@@ -127,7 +127,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-zinc-100 text-center font-bold hover:rounded-r-full"
+                            ? "bg-lime-400 text-zinc-100 text-center font-bold hover:rounded-r-2xl"
                             : "text-zinc-100 font-bold"
                           }
                         `}
@@ -159,7 +159,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-full hover:xl:text-2xl"
+                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-2xl hover:xl:text-2xl"
                             : "text-zinc-100 font-bold"
                           }
                         `}
@@ -223,7 +223,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-full hover:xl:text-2xl"
+                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-2xl hover:xl:text-2xl"
                             : "text-zinc-100 font-bold"
                           }
                         `}
@@ -254,7 +254,7 @@ export default function NavbarDropdownMenu() {
                           justify-center
                           items-center
                           ${active
-                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-full"
+                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-2xl"
                             : "text-zinc-100 font-bold"
                           }
                         `}
