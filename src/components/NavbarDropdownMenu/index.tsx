@@ -5,14 +5,14 @@ import { Fragment } from "react"
 export default function NavbarDropdownMenu() {
   return (
     <div className="flex justify-start items-start border-none outline-none overflow-hidden">
-      <Menu as="div" className="relative border-none outline-none">
+      <Menu as="div" className="w-full relative border-none outline-none">
         {({ open }) => (
           <Fragment>
             <Menu.Button className="inline-flex justify-items-start rounded-md text-zinc-100 border-none outline-none">
               <ListBullets
                 size={68}
                 weight="bold"
-                className={`py-4 border-none outline-none hover:cursor-pointer text-zinc-600`}
+                className={`py-4 border-none outline-none hover:cursor-pointer text-zinc-100`}
               />
             </Menu.Button>
 
@@ -26,8 +26,8 @@ export default function NavbarDropdownMenu() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Menu.Items className="w-full min-h-screen justify-center items-center bg-zinc-400 rounded-r-2xl">
-                <div className="flex-col justify-start items-start">
+              <Menu.Items className="w-full min-h-screen justify-center items-center bg-zinc-100/95 z-50">
+                <div className="w-full flex-col justify-center items-center">
                   <Menu.Item>
                     {({ active }) => (
                       <div
@@ -36,8 +36,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center                                                       
                            ${active
-                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-2xl"
-                            : "text-zinc-100 font-bold"
+                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-400 font-bold hover:rounded-r-2xl"
+                            : "text-zinc-400 font-bold"
                           }
                          `}
                       >
@@ -52,7 +52,7 @@ export default function NavbarDropdownMenu() {
                              hover:text-lg
                            `}
                         >
-                          <House size={32} weight="bold" className={`text-zinc-100`} />
+                          <House size={32} weight="bold" className={`text-zinc-400`} />
                         </a>
                       </div>
                     )}
@@ -67,8 +67,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "text-zinc-100 font-bold hover:cursor-none"
-                            : "text-zinc-100 font-bold"
+                            ? "text-zinc-400 font-bold hover:cursor-none"
+                            : "text-zinc-400 font-bold"
                           }
                          `}
                       >
@@ -96,8 +96,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-lime-400 text-zinc-100 text-center font-bold hover:rounded-r-2xl"
-                            : "text-zinc-100 font-bold"
+                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-100 text-center font-bold hover:rounded-r-2xl"
+                            : "text-zinc-400 font-bold"
                           }
                          `}
                       >
@@ -127,8 +127,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-lime-400 text-zinc-100 text-center font-bold hover:rounded-r-2xl"
-                            : "text-zinc-100 font-bold"
+                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-100 text-center font-bold hover:rounded-r-2xl"
+                            : "text-zinc-400 font-bold"
                           }
                          `}
                       >
@@ -159,8 +159,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-2xl hover:xl:text-2xl"
-                            : "text-zinc-100 font-bold"
+                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-100 font-bold hover:rounded-r-2xl hover:xl:text-2xl"
+                            : "text-zinc-400 font-bold"
                           }
                          `}
                       >
@@ -190,8 +190,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "text-zinc-100 font-bold hover:cursor-none"
-                            : "text-zinc-100 font-bold"
+                            ? "text-zinc-400 font-bold hover:cursor-none"
+                            : "text-zinc-400 font-bold"
                           }
                          `}
                       >
@@ -223,8 +223,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-2xl hover:xl:text-2xl"
-                            : "text-zinc-100 font-bold"
+                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-100 font-bold hover:rounded-r-2xl hover:xl:text-2xl"
+                            : "text-zinc-400 font-bold"
                           }
                          `}
                       >
@@ -254,8 +254,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-2xl"
-                            : "text-zinc-100 font-bold"
+                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-100 font-bold hover:rounded-r-2xl"
+                            : "text-zinc-400 font-bold"
                           }
                          `}
                       >
