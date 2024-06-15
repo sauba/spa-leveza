@@ -235,7 +235,7 @@ export default function NavbarDropdownMenu() {
                              items-center
                              px-4
                              py-2
-                             text-lg
+                             text-xl
                              xl:text-2xl
                              text-center
                            `}
