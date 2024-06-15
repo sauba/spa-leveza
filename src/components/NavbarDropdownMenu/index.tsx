@@ -5,9 +5,9 @@ import { Fragment } from "react"
 export default function NavbarDropdownMenu() {
   return (
     <div className="flex justify-start items-start border-none outline-none overflow-hidden">
-      <Menu as="div" className="absolute border-none outline-none">
+      <Menu as="div" className="relative border-none outline-none">
         {({ open }) => (
-          <Fragment className={`w-full min-h-screen justify-center items-center`}>
+          <Fragment>
             <Menu.Button className="inline-flex justify-items-start rounded-md text-zinc-100 border-none outline-none">
               <ListBullets
                 size={68}
@@ -26,31 +26,31 @@ export default function NavbarDropdownMenu() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Menu.Items className="origin-top-left absolute left-0 w-60 bg-zinc-400 rounded-r-2xl">
+              <Menu.Items className="w-full min-h-screen justify-center items-center bg-zinc-400 rounded-r-2xl">
                 <div className="flex-col justify-start items-start">
                   <Menu.Item>
                     {({ active }) => (
                       <div
                         className={`
-                          flex
-                          justify-center
-                          items-center                                                       
-                          ${active
+                           flex
+                           justify-center
+                           items-center                                                       
+                           ${active
                             ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-2xl"
                             : "text-zinc-100 font-bold"
                           }
-                        `}
+                         `}
                       >
                         <a
                           href="/"
                           className={`
-                            flex
-                            items-center
-                            px-4
-                            py-2
-                            text-sm
-                            hover:text-lg
-                          `}
+                             flex
+                             items-center
+                             px-4
+                             py-2
+                             text-sm
+                             hover:text-lg
+                           `}
                         >
                           <House size={32} weight="bold" className={`text-zinc-100`} />
                         </a>
@@ -62,25 +62,25 @@ export default function NavbarDropdownMenu() {
                     {({ active }) => (
                       <div
                         className={`
-                          flex
+                           flex
                           
-                          justify-center
-                          items-center
-                          ${active
+                           justify-center
+                           items-center
+                           ${active
                             ? "text-zinc-100 font-bold hover:cursor-none"
                             : "text-zinc-100 font-bold"
                           }
-                        `}
+                         `}
                       >
                         <p
                           className={`
-                            flex
-                            items-center
-                            px-4
-                            py-2
-                            text-2xl
-                            hover:cursor-none
-                          `}
+                             flex
+                             items-center
+                             px-4
+                             py-2
+                             text-2xl
+                             hover:cursor-none
+                           `}
                         >
                           Serviços
                         </p>
@@ -92,25 +92,25 @@ export default function NavbarDropdownMenu() {
                     {({ active }) => (
                       <div
                         className={`
-                          flex
-                          justify-center
-                          items-center
-                          ${active
+                           flex
+                           justify-center
+                           items-center
+                           ${active
                             ? "bg-lime-400 text-zinc-100 text-center font-bold hover:rounded-r-2xl"
                             : "text-zinc-100 font-bold"
                           }
-                        `}
+                         `}
                       >
                         <a
                           href="#terapia"
                           className={`
-                            flex
-                            items-center
-                            px-2
-                            py-2
-                            text-sm
-                            xl:text-lg  
-                          `}
+                             flex
+                             items-center
+                             px-2
+                             py-2
+                             text-sm
+                             xl:text-lg  
+                           `}
                         >
                           Terapia
                         </a>
@@ -122,27 +122,27 @@ export default function NavbarDropdownMenu() {
                     {({ active }) => (
                       <div
                         className={`
-                          flex
+                           flex
                           
-                          justify-center
-                          items-center
-                          ${active
+                           justify-center
+                           items-center
+                           ${active
                             ? "bg-lime-400 text-zinc-100 text-center font-bold hover:rounded-r-2xl"
                             : "text-zinc-100 font-bold"
                           }
-                        `}
+                         `}
                       >
                         <a
                           href="#levezaSelvagem"
                           className={`
-                            flex
-                            items-center
-                            text-center
-                            px-2
-                            py-2
-                            text-sm
-                            xl:text-lg
-                          `}
+                             flex
+                             items-center
+                             text-center
+                             px-2
+                             py-2
+                             text-sm
+                             xl:text-lg
+                           `}
                         >
                           Leveza Selvagem
                         </a>
@@ -154,26 +154,26 @@ export default function NavbarDropdownMenu() {
                     {({ active }) => (
                       <div
                         className={`
-                          flex
+                           flex
                           
-                          justify-center
-                          items-center
-                          ${active
+                           justify-center
+                           items-center
+                           ${active
                             ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-2xl hover:xl:text-2xl"
                             : "text-zinc-100 font-bold"
                           }
-                        `}
+                         `}
                       >
                         <a
                           href="#levetarot"
                           className={`
-                            flex
-                            items-center
-                            px-4
-                            py-2
-                            text-sm
-                            xl:text-lg
-                          `}
+                             flex
+                             items-center
+                             px-4
+                             py-2
+                             text-sm
+                             xl:text-lg
+                           `}
                         >
                           Leve Tarot
                         </a>
@@ -185,28 +185,28 @@ export default function NavbarDropdownMenu() {
                     {({ active }) => (
                       <div
                         className={`
-                          flex
+                           flex
                           
-                          justify-center
-                          items-center
-                          ${active
+                           justify-center
+                           items-center
+                           ${active
                             ? "text-zinc-100 font-bold hover:cursor-none"
                             : "text-zinc-100 font-bold"
                           }
-                        `}
+                         `}
                       >
                         <a
                           href="#produtos"
                           className={`
-                            flex
-                            items-center
-                            px-4
-                            py-2
-                            text-2xl
-                            gap-3
-                            font-bold
-                            hover:cursor-none
-                          `}
+                             flex
+                             items-center
+                             px-4
+                             py-2
+                             text-2xl
+                             gap-3
+                             font-bold
+                             hover:cursor-none
+                           `}
                         >
                           Produtos
                         </a>
@@ -218,27 +218,27 @@ export default function NavbarDropdownMenu() {
                     {({ active }) => (
                       <div
                         className={`
-                          flex
+                           flex
                           
-                          justify-center
-                          items-center
-                          ${active
+                           justify-center
+                           items-center
+                           ${active
                             ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-2xl hover:xl:text-2xl"
                             : "text-zinc-100 font-bold"
                           }
-                        `}
+                         `}
                       >
                         <a
                           href="#caixinhaDaLeveza"
                           className={`
-                            flex
-                            items-center
-                            px-4
-                            py-2
-                            text-sm
-                            xl:text-lg
-                            text-center
-                          `}
+                             flex
+                             items-center
+                             px-4
+                             py-2
+                             text-sm
+                             xl:text-lg
+                             text-center
+                           `}
                         >
                           Caixinha da Leveza
                         </a>
@@ -250,26 +250,26 @@ export default function NavbarDropdownMenu() {
                     {({ active }) => (
                       <div
                         className={`
-                          flex
-                          justify-center
-                          items-center
-                          ${active
+                           flex
+                           justify-center
+                           items-center
+                           ${active
                             ? "bg-lime-400 text-zinc-100 font-bold hover:rounded-r-2xl"
                             : "text-zinc-100 font-bold"
                           }
-                        `}
+                         `}
                       >
                         <a
                           href="#contato"
                           className={`
-                            flex
-                            items-center
-                            px-4
-                            py-2
-                            gap-3
-                            text-sm
-                            xl:text-2xl
-                          `}
+                             flex
+                             items-center
+                             px-4
+                             py-2
+                             gap-3
+                             text-sm
+                             xl:text-2xl
+                           `}
                         >
                           Contato
                         </a>
