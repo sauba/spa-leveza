@@ -108,8 +108,8 @@ export default function NavbarDropdownMenu() {
                              items-center
                              px-2
                              py-2
-                             text-xl
-                             xl:text-2xl  
+                             text-2xl
+                             xl:text-3xl  
                            `}
                         >
                           Terapia
@@ -140,8 +140,8 @@ export default function NavbarDropdownMenu() {
                              text-center
                              px-2
                              py-2
-                             text-xl
-                             xl:text-2xl
+                             text-2xl
+                             xl:text-3xl
                            `}
                         >
                           Leveza Selvagem
@@ -171,8 +171,8 @@ export default function NavbarDropdownMenu() {
                              items-center
                              px-4
                              py-2
-                             text-xl
-                             xl:text-2xl
+                             text-2xl
+                             xl:text-3xl
                            `}
                         >
                           Leve Tarot
@@ -235,8 +235,8 @@ export default function NavbarDropdownMenu() {
                              items-center
                              px-4
                              py-2
-                             text-xl
-                             xl:text-2xl
+                             text-2xl
+                             xl:text-3xl
                              text-center
                            `}
                         >
@@ -267,7 +267,7 @@ export default function NavbarDropdownMenu() {
                              px-4
                              py-2
                              gap-3
-                             text-xl
+                             text-2xl
                              xl:text-3xl
                            `}
                         >
