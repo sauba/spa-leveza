@@ -267,7 +267,7 @@ export default function NavbarDropdownMenu() {
                              px-4
                              py-2
                              gap-3
-                             text-lg
+                             text-xl
                              xl:text-3xl
                            `}
                         >
