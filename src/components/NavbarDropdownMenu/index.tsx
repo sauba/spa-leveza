@@ -108,8 +108,8 @@ export default function NavbarDropdownMenu() {
                              items-center
                              px-2
                              py-2
-                             text-sm
-                             xl:text-lg  
+                             text-lg
+                             xl:text-xl  
                            `}
                         >
                           Terapia
