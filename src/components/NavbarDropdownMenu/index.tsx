@@ -4,11 +4,11 @@ import { Fragment } from "react"
 
 export default function NavbarDropdownMenu() {
   return (
-    <div className="flex justify-start items-start border-none outline-none overflow-hidden">
+    <div className="flex justify-center items-center border-none outline-none overflow-hidden">
       <Menu as="div" className="w-full relative border-none outline-none">
         {({ open }) => (
           <Fragment>
-            <Menu.Button className="inline-flex justify-items-start rounded-md text-zinc-100 border-none outline-none">
+            <Menu.Button className="inline-flex justify-items-center rounded-md text-zinc-100 border-none outline-none">
               <ListBullets
                 size={68}
                 weight="bold"
