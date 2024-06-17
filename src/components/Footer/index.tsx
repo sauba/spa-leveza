@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer
-      className={`min-h-screen flex-col justify-center text-zinc-700 items-center text-center`}
+      className={`min-h-screen flex-col justify-center text-zinc-700 items-center text-center font-pt-mono`}
       id="contato"
     >
       <div className={`flex flex-col justify-center items-center mx-auto pt-96`}>
@@ -15,44 +15,44 @@ export default function Footer() {
           Daniele Andrade
         </span>
 
-        <span className={`text-lg lg:text-2xl pb-1 tracking-wider flex-wrap text-sky-700`}>
+        <span className={`text-lg pb-1 tracking-wider flex-wrap text-sky-700`}>
           Terapeuta
         </span>
 
         <span
-          className={`text-lg lg:text-2xl tracking-widest flex-wrap text-sky-700`}
+          className={`text-lg tracking-widest flex-wrap text-sky-700`}
         >
           Entre em Contato:
         </span>
 
         <div className={`flex justify-center items-center gap-6 z-40`}>
-          <div className={`animate-wiggle`}>
+          <div className={``}>
             <span className={`text-red-500`}>
               <Link
                 href="https://www.instagram.com/levezaparaviver/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <InstagramLogo size={56} />
+                <InstagramLogo size={56} weight="thin" />
               </Link>
             </span>
           </div>
 
-          <div className={`animate-wiggle`}>
+          <div className={``}>
             <span className={`text-green-600`}>
               <Link
                 href="https://wa.me/5581989689423"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <WhatsappLogo size={56} />
+                <WhatsappLogo size={56} weight="thin" />
               </Link>
             </span>
           </div>
         </div>
       </div>
 
-      <svg className={`flex w-full justify-center items-center mx-auto rounded-full overflow-hidden z-10`} version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900">
+      <svg className={`flex w-full justify-center items-center mx-auto rounded-full overflow-hidden z-10 bg-gradient-to-br from-zinc-100 via-cyan-300 to-orange-300`} version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900">
         <defs>
           <linearGradient id="bg" x2="0%" y2="100%">
             <stop offset="0%" style={{ stopColor: 'rgba(93, 150, 242, 0.6)' }}></stop>

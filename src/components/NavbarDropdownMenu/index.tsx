@@ -12,7 +12,7 @@ export default function NavbarDropdownMenu() {
               <ListBullets
                 size={48}
                 weight="bold"
-                className={`border-none outline-none hover:cursor-pointer text-zinc-100`}
+                className={`px-2 border-none outline-none hover:cursor-pointer text-zinc-100`}
               />
             </Menu.Button>
 
