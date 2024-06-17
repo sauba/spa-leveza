@@ -8,11 +8,11 @@ export default function NavbarDropdownMenu() {
       <Menu as="div" className="w-full relative border-none outline-none">
         {({ open }) => (
           <Fragment>
-            <Menu.Button className="inline-flex justify-center rounded-md text-zinc-100 border-none outline-none">
+            <Menu.Button className="inline-flex justify-center items-center rounded-md text-zinc-100 border-none outline-none">
               <ListBullets
-                size={68}
+                size={48}
                 weight="bold"
-                className={`py-4 border-none outline-none hover:cursor-pointer text-zinc-100`}
+                className={`border-none outline-none hover:cursor-pointer text-zinc-100`}
               />
             </Menu.Button>
 
