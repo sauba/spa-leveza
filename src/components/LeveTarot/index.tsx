@@ -39,7 +39,7 @@ export default function LeveTarot() {
         </AccordionItem>
       </Accordion>
 
-      <Link href="/servicos/tarot" className={`rounded-3xl bg-purple-500 text-white text-2xl mt-8 px-4 py-2 font-pt-mono`}>Saiba Mais</Link>
+      <Link href="/servicos/tarot" className={`rounded-3xl bg-purple-500 text-white text-2xl mt-8 px-2 py-4 font-pt-mono`}>Saiba Mais</Link>
     </div>
   )
 }
