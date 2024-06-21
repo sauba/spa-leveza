@@ -27,7 +27,7 @@ export default function Footer() {
 
         <div className={`flex justify-center items-center gap-6 z-40`}>
           <div className={``}>
-            <span className={`text-zinc-100`}>
+            <span className={`text-sky-700`}>
               <Link
                 href="https://www.instagram.com/levezaparaviver/"
                 target="_blank"
@@ -39,7 +39,7 @@ export default function Footer() {
           </div>
 
           <div className={``}>
-            <span className={`text-zinc-100`}>
+            <span className={`text-sky-700`}>
               <Link
                 href="https://wa.me/5581989689423"
                 target="_blank"
