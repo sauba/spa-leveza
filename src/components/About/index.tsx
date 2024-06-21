@@ -4,6 +4,7 @@ export default function About() {
   return (
     <div className={`
         w-full
+        py-32
         about
         flex
         flex-col
@@ -16,11 +17,11 @@ export default function About() {
         font-pt-mono
       `} id="about">
       <Image src={`/logo.svg`} width={600} height={600} alt="Leveza Para Viver logo" className={`cursor-none mx-auto`} priority />
-      <p className={`px-4 lg:px-24 text-center text-xl xl:text-2xl 2xl:text-3xl tracking-wider`}>
+      <p className={`px-4 lg:px-24 text-center text-lg xl:text-xl 2xl:text-2xl tracking-wider`}>
         O Leveza Para Viver é a manifestação de uma filosofia de vida, da Mulher e Terapeuta, Daniele Andrade.
       </p>
 
-      <p className={`px-4 lg:px-24 text-center text-xl xl:text-2xl 2xl:text-3xl tracking-wider`}>
+      <p className={`px-4 lg:px-24 text-center text-lg xl:text-xl 2xl:text-2xl tracking-wider`}>
         Um espaço de evolução que coloca em movimento, diferentes projetos terapêuticos, te apresentando caminhos para uma vida com mais Leveza Para Viver.
       </p>
     </div>
