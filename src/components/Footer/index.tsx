@@ -74,7 +74,7 @@ export default function Footer() {
         </g>
       </svg>
 
-      <p className="font-bad-script text-center text-sky-700">© 2024 Todos os direitos reservados.</p>
+      <p className="font-bad-script text-center text-sky-700">Leveza Para Viver © 2024 Todos os direitos reservados.</p>
     </footer>
   )
 }
