@@ -10,7 +10,7 @@ export default function NavbarDropdownMenu() {
           <Fragment>
             <Menu.Button className="inline-flex justify-center items-center rounded-md text-zinc-100 border-none outline-none">
               <ListBullets
-                size={48}
+                size={68}
                 weight="bold"
                 className={`px-2 border-none outline-none hover:cursor-pointer text-zinc-100`}
               />
@@ -36,8 +36,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center                                                       
                            ${active
-                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-400 font-bold hover:rounded-r-2xl"
-                            : "text-zinc-400 font-bold"
+                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-400 font-thin hover:rounded-r-2xl"
+                            : "text-zinc-400 font-thin"
                           }
                          `}
                       >
@@ -67,68 +67,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "text-zinc-400 font-bold hover:cursor-none"
-                            : "text-zinc-400 font-bold"
-                          }
-                         `}
-                      >
-                        <p
-                          className={`
-                             flex
-                             items-center
-                             px-4
-                             py-2
-                             text-3xl
-                             hover:cursor-none
-                           `}
-                        >
-                          Serviços
-                        </p>
-                      </div>
-                    )}
-                  </Menu.Item>
-
-                  <Menu.Item>
-                    {({ active }) => (
-                      <div
-                        className={`
-                           flex
-                           justify-center
-                           items-center
-                           ${active
-                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-100 text-center font-bold hover:rounded-r-2xl"
-                            : "text-zinc-400 font-bold"
-                          }
-                         `}
-                      >
-                        <a
-                          href="#terapia"
-                          className={`
-                             flex
-                             items-center
-                             px-2
-                             py-2
-                             text-2xl
-                             xl:text-3xl  
-                           `}
-                        >
-                          Terapia
-                        </a>
-                      </div>
-                    )}
-                  </Menu.Item>
-
-                  <Menu.Item>
-                    {({ active }) => (
-                      <div
-                        className={`
-                           flex
-                          
-                           justify-center
-                           items-center
-                           ${active
-                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-100 text-center font-bold hover:rounded-r-2xl"
-                            : "text-zinc-400 font-bold"
+                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-100 text-center font-thin hover:rounded-r-2xl"
+                            : "text-zinc-400 font-thin"
                           }
                          `}
                       >
@@ -159,8 +99,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-100 font-bold hover:rounded-r-2xl hover:xl:text-2xl"
-                            : "text-zinc-400 font-bold"
+                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-100 font-thin hover:rounded-r-2xl hover:xl:text-2xl"
+                            : "text-zinc-400 font-thin"
                           }
                          `}
                       >
@@ -190,8 +130,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "text-zinc-400 font-bold hover:cursor-none"
-                            : "text-zinc-400 font-bold"
+                            ? "text-zinc-400 font-thin hover:cursor-none"
+                            : "text-zinc-400 font-thin"
                           }
                          `}
                       >
@@ -204,7 +144,7 @@ export default function NavbarDropdownMenu() {
                              py-2
                              text-3xl
                              gap-3
-                             font-bold
+                             font-thin
                              hover:cursor-none
                            `}
                         >
@@ -219,43 +159,11 @@ export default function NavbarDropdownMenu() {
                       <div
                         className={`
                            flex
-                          
                            justify-center
                            items-center
                            ${active
-                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-100 font-bold hover:rounded-r-2xl hover:xl:text-2xl"
-                            : "text-zinc-400 font-bold"
-                          }
-                         `}
-                      >
-                        <a
-                          href="#caixinhaDaLeveza"
-                          className={`
-                             flex
-                             items-center
-                             px-4
-                             py-2
-                             text-2xl
-                             xl:text-3xl
-                             text-center
-                           `}
-                        >
-                          Caixinha da Leveza
-                        </a>
-                      </div>
-                    )}
-                  </Menu.Item>
-
-                  <Menu.Item>
-                    {({ active }) => (
-                      <div
-                        className={`
-                           flex
-                           justify-center
-                           items-center
-                           ${active
-                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-100 font-bold hover:rounded-r-2xl"
-                            : "text-zinc-400 font-bold"
+                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-100 font-thin hover:rounded-r-2xl"
+                            : "text-zinc-400 font-thin"
                           }
                          `}
                       >
