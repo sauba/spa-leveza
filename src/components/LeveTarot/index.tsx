@@ -19,7 +19,7 @@ export default function LeveTarot() {
         text-zinc-100
       `} id="levetarot">
       <div>
-        <h1 className={`text-center text-6xl lg:text-8xl font-allura`}>Leve Tarot</h1>
+        <h1 className={`text-center text-6xl lg:text-8xl font-caveat`}>Leve Tarot</h1>
       </div>
 
       <KeenSliderAuto />
