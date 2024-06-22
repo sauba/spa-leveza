@@ -15,10 +15,11 @@ export default function LeveTarot() {
         text-center
         outline-none
         border-none
+        font-caveat
         bg-zinc-400
         text-zinc-100
       `} id="levetarot">
-      <div>
+      <div className={`font-caveat`}>
         <h1 className={`text-center text-6xl lg:text-8xl font-caveat pt-8 pb-4`}>Leve Tarot</h1>
       </div>
 
