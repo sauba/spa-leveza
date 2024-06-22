@@ -6,7 +6,6 @@ export default function LeveTarot() {
   return (
     <div className={`
         w-full
-        min-h-screen
         levetarot
         flex
         flex-col
