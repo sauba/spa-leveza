@@ -10,7 +10,7 @@ export default function NavbarDropdownMenu() {
           <Fragment>
             <Menu.Button className="inline-flex justify-center items-center rounded-md text-zinc-100 border-none outline-none">
               <ListBullets
-                size={68}
+                size={56}
                 weight="bold"
                 className={`px-2 border-none outline-none hover:cursor-pointer text-zinc-100`}
               />

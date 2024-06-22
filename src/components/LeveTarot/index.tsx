@@ -1,5 +1,6 @@
 import { Accordion, AccordionItem } from "@nextui-org/react";
 import Link from "next/link";
+import KeenSliderAuto from "../KeenSliderAuto";
 
 export default function LeveTarot() {
   return (
@@ -20,6 +21,8 @@ export default function LeveTarot() {
       <div>
         <h1 className={`text-center text-6xl lg:text-8xl font-allura`}>Leve Tarot</h1>
       </div>
+
+      <KeenSliderAuto />
 
       <Accordion>
         <AccordionItem indicator key="1" aria-label="O que é o Tarot Terapêutico ?" title={<span style={{ color: '#f0f0f0', fontSize: '24px' }}>O que é o Tarot Terapêutico ?</span>} className={`text-3xl xl:text-6xl font-pt-mono`}>

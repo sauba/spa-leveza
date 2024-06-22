@@ -34,3 +34,11 @@ body {
     text-wrap: balance;
   }
 }
+
+/* [class^='number-slide'],
+[class*=' number-slide'] {
+  display: flex;
+  justify: center;
+  items: center;
+  max-height: 100vh;
+} */
