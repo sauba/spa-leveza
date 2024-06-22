@@ -10,8 +10,10 @@ import carta17 from "../../../public/017.svg";
 import carta18 from "../../../public/018.svg";
 import carta19 from "../../../public/019.svg";
 import carta2 from "../../../public/02.svg";
+import carta20 from "../../../public/020.svg";
 import carta21 from "../../../public/021.svg";
 import carta22 from "../../../public/022.svg";
+import carta3 from "../../../public/03.svg";
 import carta4 from "../../../public/04.svg";
 import carta5 from "../../../public/05.svg";
 import carta6 from "../../../public/06.svg";
@@ -41,7 +43,7 @@ export default function KeenSliderAuto() {
     },
     breakpoints: {
       "(min-width: 400px)": {
-        slides: { perView: 2, spacing: 0 },
+        slides: { perView: 3, spacing: 0 },
       },
       "(min-width: 1000px)": {
         slides: { perView: 12, spacing: 0 },
@@ -49,7 +51,7 @@ export default function KeenSliderAuto() {
     },
   })
   return (
-    <div ref={sliderRef} className="keen-slider my-8 py-8">
+    <div ref={sliderRef} className="keen-slider">
 
       <div className="keen-slider__slide number-slide1">
         <Image
@@ -58,7 +60,7 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
 
@@ -70,9 +72,22 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
+
+      <div className="keen-slider__slide number-slide1">
+        <Image
+          src={carta3}
+          width={156}
+          height={156}
+          alt=""
+          priority
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
+        />
+      </div>
+
+
       <div className="keen-slider__slide number-slide2">
         <Image
           src={carta4}
@@ -80,7 +95,7 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
       <div className="keen-slider__slide number-slide3">
@@ -90,7 +105,7 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
       <div className="keen-slider__slide number-slide4">
@@ -100,7 +115,7 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
       <div className="keen-slider__slide number-slide5">
@@ -110,7 +125,7 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
       <div className="keen-slider__slide number-slide5">
@@ -120,7 +135,7 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
       <div className="keen-slider__slide number-slide5">
@@ -130,7 +145,7 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
       <div className="keen-slider__slide number-slide5">
@@ -140,7 +155,7 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
       <div className="keen-slider__slide number-slide5">
@@ -150,7 +165,7 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
 
@@ -161,7 +176,7 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
 
@@ -172,7 +187,7 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
 
@@ -183,7 +198,7 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
 
@@ -194,7 +209,7 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
 
@@ -205,7 +220,7 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
 
@@ -216,7 +231,7 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
 
@@ -227,7 +242,7 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
 
@@ -238,7 +253,18 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
+        />
+      </div>
+
+      <div className="keen-slider__slide number-slide5">
+        <Image
+          src={carta20}
+          width={156}
+          height={156}
+          alt=""
+          priority
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
 
@@ -249,7 +275,7 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
 
@@ -260,7 +286,7 @@ export default function KeenSliderAuto() {
           height={156}
           alt=""
           priority
-          className={`rounded-3xl`}
+          className={`rounded-lg hover:transition-transform hover:scale-110`}
         />
       </div>
     </div>
