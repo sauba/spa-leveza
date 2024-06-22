@@ -18,7 +18,7 @@ export default function LeveTarot() {
         text-zinc-100
       `} id="levetarot">
       <div>
-        <h1 className={`text-center text-6xl lg:text-8xl font-caveat`}>Leve Tarot</h1>
+        <h1 className={`text-center text-6xl lg:text-8xl font-caveat py-2`}>Leve Tarot</h1>
       </div>
 
       <KeenSliderAuto />
@@ -41,7 +41,7 @@ export default function LeveTarot() {
         </AccordionItem>
       </Accordion>
 
-      <Link href="/servicos/tarot" className={`w-4/12 rounded-3xl bg-purple-500 text-white text-xl mt-8 px-4 py-2 font-pt-mono`}>Saiba Mais</Link>
+      <Link href="/servicos/tarot" className={`w-4/12 rounded-3xl bg-purple-500 text-white text-xl my-8 px-4 py-2 font-pt-mono`}>Saiba Mais</Link>
     </div>
   )
 }
