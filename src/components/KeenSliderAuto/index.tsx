@@ -43,10 +43,10 @@ export default function KeenSliderAuto() {
     },
     breakpoints: {
       "(min-width: 400px)": {
-        slides: { perView: 3, spacing: 0 },
+        slides: { perView: 1, spacing: 0 },
       },
       "(min-width: 1000px)": {
-        slides: { perView: 12, spacing: 0 },
+        slides: { perView: 4, spacing: 0 },
       },
     },
   })
