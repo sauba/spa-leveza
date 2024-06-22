@@ -25,7 +25,7 @@ export default function LeveTarot() {
       <KeenSliderAuto />
 
       <Accordion>
-        <AccordionItem indicator key="1" aria-label="O que é o Tarot Terapêutico ?" title={<span style={{ color: '#f0f0f0', fontSize: '20px' }}>O que é o Tarot Terapêutico ?<ArrowCircleDown /></span>} className={`text-3xl xl:text-6xl font-pt-mono`}>
+        <AccordionItem indicator key="1" aria-label="O que é o Tarot Terapêutico ?" title={<span style={{ color: '#f0f0f0', fontSize: '20px' }}>O que é o Tarot Terapêutico ?<ArrowCircleDown /></span>} className={`flex justify-evenly text-3xl xl:text-6xl font-pt-mono`}>
           <p className={`px-2 lg:px-20 text-center text-xl 2xl:text-2xl tracking-wider font-pt-mono`}>
             O Tarot é uma ferramenta de autoconhecimento, que representa um mistério para muitos de nós. Nada que também não aconteça com a própria temática ‘autoconhecimento’, que, culturalmente, foi tão afastada de nós... Mas, relaxa, nós estamos aqui, justamente, em prol dessa merecida reconexão!
           </p>
