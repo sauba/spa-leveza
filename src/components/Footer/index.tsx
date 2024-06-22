@@ -10,7 +10,7 @@ export default function Footer() {
     >
       <div className={`flex flex-col justify-center items-center mx-auto`}>
         <span
-          className={`text-4xl lg:text-6xl text-center font-allura text-sky-700`}
+          className={`text-4xl lg:text-6xl text-center font-allura text-sky-700 pt-8`}
         >
           Daniele Andrade
         </span>
@@ -25,7 +25,7 @@ export default function Footer() {
           Entre em Contato:
         </span>
 
-        <div className={`flex justify-center items-center gap-6 z-40`}>
+        <div className={`flex justify-center items-center pt-8 gap-6 z-40`}>
           <div className={``}>
             <span className={`text-sky-700`}>
               <Link
