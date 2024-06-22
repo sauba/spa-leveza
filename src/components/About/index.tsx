@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className={`
         w-full
-        py-32
+        py-20
         about
         flex
         flex-col
