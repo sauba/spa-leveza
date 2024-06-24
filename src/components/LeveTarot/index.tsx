@@ -26,7 +26,7 @@ export default function LeveTarot() {
 
       <KeenSliderAuto />
 
-      <Accordion className="text-zinc-300 rounded-3xl">
+      <Accordion className="text-zinc-400 rounded-3xl">
         <AccordionItem indicator key="1" aria-label="O que é ?" title={<span style={{ fontSize: '20px', display: "flex", alignItems: "center", justifyContent: "center", gap: 6, backgroundColor: '#ffffff', borderRadius: '32px', border: 'none', outline: 'none', padding: '16px', width: '300px', margin: 'auto' }}><ArrowCircleDown />O que é ?</span>} className={`text-3xl xl:text-6xl font-pt-mono`}>
           <p className={`px-2 lg:px-20 text-center text-xl 2xl:text-2xl tracking-wider font-pt-mono text-zinc-100`}>
             O Tarot é uma ferramenta de autoconhecimento, que representa um mistério para muitos de nós. Nada que também não aconteça com a própria temática ‘autoconhecimento’, que, culturalmente, foi tão afastada de nós... Mas, relaxa, nós estamos aqui, justamente, em prol dessa merecida reconexão!
