@@ -148,7 +148,7 @@ export default function NavbarDropdownMenu() {
                              hover:cursor-none
                            `}
                         >
-                          Produtos
+                          Caixinha da Leveza
                         </a>
                       </div>
                     )}
