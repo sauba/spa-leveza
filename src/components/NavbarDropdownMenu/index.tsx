@@ -50,9 +50,10 @@ export default function NavbarDropdownMenu() {
                              py-2
                              text-sm
                              hover:text-lg
+                             hover:text-zinc-100
                            `}
                         >
-                          <House size={32} weight="bold" className={`text-zinc-400 hover:text-zinc-100`} />
+                          <House size={32} weight="bold" className={`text-zinc-400`} />
                         </a>
                       </div>
                     )}
