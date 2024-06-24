@@ -11,6 +11,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
+        'inter': ["inter", 'sans-serif'],
         'gothamrounded-book': ['gothamrounded-book'],
         'gothamrounded-medium': ['gothamrounded-medium'],
         'snowdrop-regular': ['snowdrop-regular'],
