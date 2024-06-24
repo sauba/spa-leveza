@@ -21,7 +21,7 @@ export default function LeveTarot() {
       `} id="levetarot">
       <div className={``}>
         <h1 className={`text-center text-6xl lg:text-8xl square-peg-regular pt-8 pb-4`}>Leve Tarot</h1>
-        <p className={`px-4 lg:px-24 text-center text-lg xl:text-xl 2xl:text-2xl tracking-wider font-pt-mono`}>Tarot, uma sabedoria milenar que podemos aproximar das nossas vidas  através das leituras, também conhecidas como tiragens. Vamos entender juntas.</p>
+        <p className={`px-4 lg:px-24 text-center text-lg xl:text-xl 2xl:text-2xl tracking-wider font-pt-mono pb-4`}>Tarot, uma sabedoria milenar que podemos aproximar das nossas vidas  através das leituras, também conhecidas como tiragens. Vamos entender juntas.</p>
       </div>
 
       <KeenSliderAuto />
