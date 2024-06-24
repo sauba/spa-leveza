@@ -36,7 +36,7 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center                                                       
                            ${active
-                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-400 font-thin hover:rounded-r-2xl"
+                            ? "bg-zinc-400 border-none cursor-pointer text-zinc-400 font-thin hover:rounded-r-2xl"
                             : "text-zinc-400 font-thin"
                           }
                          `}
@@ -67,7 +67,7 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-100 text-center font-thin hover:rounded-r-2xl"
+                            ? "bg-zinc-400 border-none cursor-pointer text-zinc-100 text-center font-thin hover:rounded-r-2xl"
                             : "text-zinc-400 font-thin"
                           }
                          `}
@@ -99,7 +99,7 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-100 font-thin hover:rounded-r-2xl hover:xl:text-2xl"
+                            ? "bg-zinc-400 border-none cursor-pointer text-zinc-100 font-thin hover:rounded-r-2xl hover:xl:text-2xl"
                             : "text-zinc-400 font-thin"
                           }
                          `}
@@ -130,7 +130,7 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-100 font-thin hover:rounded-r-2xl"
+                            ? "bg-zinc-400 border-none cursor-pointer text-zinc-100 font-thin hover:rounded-r-2xl"
                             : "text-zinc-400 font-thin"
                           }
                          `}
@@ -162,7 +162,7 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-gradient-to-tr from-lime-500 via-lime-600 to-lime-500 border-none cursor-pointer text-zinc-100 font-thin hover:rounded-r-2xl"
+                            ? "bg-zinc-400 border-none cursor-pointer text-zinc-100 font-thin hover:rounded-r-2xl"
                             : "text-zinc-400 font-thin"
                           }
                          `}
