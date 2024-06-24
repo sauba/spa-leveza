@@ -54,7 +54,7 @@ export default function Footer() {
 
       <svg className={`flex w-full justify-center items-center mx-auto rounded-full overflow-hidden z-10`} version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="50%" viewBox="0 0 1600 900">
         <defs>
-          <linearGradient id="bg" x2="0%" y2="100%">
+          <linearGradient id="bg" x2="0%" y2="50%">
             <stop offset="0%" style={{ stopColor: 'rgba(93, 150, 242, 0.6)' }}></stop>
             <stop offset="100%" style={{ stopColor: 'rgba(38, 89, 190, 0.06)' }}></stop>
           </linearGradient>
