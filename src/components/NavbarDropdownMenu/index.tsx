@@ -52,7 +52,7 @@ export default function NavbarDropdownMenu() {
                              hover:text-lg
                            `}
                         >
-                          <House size={32} weight="bold" className={`text-zinc-400`} />
+                          <House size={32} weight="bold" className={`text-zinc-400 hover:text-zinc-100`} />
                         </a>
                       </div>
                     )}
