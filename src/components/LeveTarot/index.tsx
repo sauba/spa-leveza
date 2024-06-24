@@ -20,7 +20,7 @@ export default function LeveTarot() {
         text-zinc-100
       `} id="levetarot">
       <div className={`font-caveat`}>
-        <h1 className={`text-center text-6xl lg:text-8xl oooh-baby-regular pt-8 pb-4`}>Leve Tarot</h1>
+        <h1 className={`text-center text-6xl lg:text-8xl square-peg-regular pt-8 pb-4`}>Leve Tarot</h1>
         <p className={`text-center text-2xl lg:text-3xl font-pt-mono px-2 py-8`}>Tarot, uma sabedoria milenar que podemos aproximar das nossas vidas  através das leituras, também conhecidas como tiragens. Vamos entender juntas.</p>
       </div>
 
