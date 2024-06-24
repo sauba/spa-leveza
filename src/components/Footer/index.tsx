@@ -5,12 +5,12 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer
-      className={`w-full flex-col justify-center items-center text-center font-pt-mono`}
+      className={`relative w-full flex-col justify-center items-center text-center font-pt-mono`}
       id="contato"
     >
       <div className={`w-full flex flex-col justify-center items-center mx-auto`}>
         <span
-          className={`text-4xl lg:text-6xl text-center font-allura text-sky-700 pt-32`}
+          className={`text-4xl lg:text-6xl text-center font-allura text-sky-700 pt-4`}
         >
           Daniele Andrade
         </span>
@@ -25,7 +25,7 @@ export default function Footer() {
           Entre em Contato:
         </span>
 
-        <div className={`flex justify-center items-center pt-8 gap-6 z-40`}>
+        <div className={`flex justify-center items-center py-8 gap-6 z-40`}>
           <div className={``}>
             <span className={`text-sky-700`}>
               <Link
@@ -50,6 +50,8 @@ export default function Footer() {
           </div>
         </div>
 
+        <p className="font-bad-script text-center text-sky-700">Leveza Para Viver © 2024 Todos os direitos reservados.</p>
+
         <svg className={`w-full xl:h-1/4 justify-center items-center mx-auto overflow-hidden z-10 xl:-mt-96`} version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900">
           <defs>
             <linearGradient id="bg" x2="0%" y2="100%">
@@ -72,7 +74,6 @@ export default function Footer() {
           </g>
         </svg>
       </div>
-      <p className="font-bad-script text-center text-sky-700">Leveza Para Viver © 2024 Todos os direitos reservados.</p>
     </footer>
   )
 }
