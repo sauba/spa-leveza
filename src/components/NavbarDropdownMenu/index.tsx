@@ -126,7 +126,6 @@ export default function NavbarDropdownMenu() {
                       <div
                         className={`
                            flex
-                          
                            justify-center
                            items-center
                            ${active
@@ -143,6 +142,7 @@ export default function NavbarDropdownMenu() {
                              px-4
                              py-2
                              text-2xl
+                             xl:text-3xl
                              gap-3
                              font-thin
                              hover:cursor-none
