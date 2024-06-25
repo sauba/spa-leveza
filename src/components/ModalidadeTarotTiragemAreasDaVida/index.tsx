@@ -5,6 +5,7 @@ export default function ModalidadeTarotTiragemAreasDaVida() {
     <div className={`
         w-full
         h-full
+        px-4
         tiragemareasdavida
         flex
         flex-col
