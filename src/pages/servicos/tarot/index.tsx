@@ -1,14 +1,14 @@
-import Header from "@/components/Header";
 import ModalidadeTarotTiragemAreasDaVida from "@/components/ModalidadeTarotTiragemAreasDaVida";
 import ModalidadeTarotTiragemLivre from "@/components/ModalidadeTarotTiragemLivre";
 import ModalidadeTarotTiragemLunar from "@/components/ModalidadeTarotTiragemLunar";
+import NavbarDropdownMenuPages from "@/components/NavbarDropdownPages";
 import { WhatsappLogo } from "@phosphor-icons/react";
 import "./styles.css";
 
 export default function LeveTarotTypes() {
   return (
     <div className={`w-full min-h-screen flex flex-col text-sky-700`} id="levetarotfull">
-      <Header />
+      <NavbarDropdownMenuPages />
       <div className={``}>
         <ModalidadeTarotTiragemAreasDaVida />
       </div>
