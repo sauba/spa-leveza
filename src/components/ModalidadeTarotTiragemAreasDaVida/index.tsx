@@ -21,7 +21,7 @@ export default function ModalidadeTarotTiragemAreasDaVida() {
         hover:cursor-pointer
         hover:rounded-br-3xl
       `} id="tiragemareasdavida">
-      <h1 className={`text-center text-2xl xl:text-8xl xl:pb-4`}>Tiragem 7 Áreas da vidas</h1>
+      <h1 className={`text-center text-3xl xl:text-8xl xl:pb-4`}>Tiragem 7 Áreas da vidas</h1>
       <p className={`text-center text-xl xl:text-2xl px-4 font-pt-mono`}>
         Nessa leitura olhamos para sete aspectos de sua vida, trazendo a energia das áreas pessoal, profissional, amor, família, saúde, espiritual e emocional.
       </p>
