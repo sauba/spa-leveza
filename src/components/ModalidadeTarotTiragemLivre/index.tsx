@@ -18,7 +18,7 @@ export default function ModalidadeTarotTiragemLivre() {
         hover:scale-105
         hover:cursor-pointer
       `} id="tiragemlivre">
-      <h1 className={`text-center text-2xl xl:text-8xl xl:pb-4`}>Tiragem Livre</h1>
+      <h1 className={`text-center text-5xl xl:text-8xl xl:pb-4`}>Tiragem Livre</h1>
       <p className={`text-center text-xl xl:text-2xl px-4 font-pt-mono`}>
         Essa é uma leitura para você que está cheia de perguntas específicas e quer ter a liberdade de contemplar as reflexões que o Tarot traz em resposta a cada uma delas.
       </p>
