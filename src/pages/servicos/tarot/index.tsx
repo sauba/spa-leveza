@@ -16,7 +16,7 @@ export default function LeveTarotPage() {
         <ModalidadeTarotTiragemLunar />
       </div>
 
-      <span className={`bg-gradient-to-l from-lime-500 to-zinc-300 flex justify-center items-center gap-3 text-center square-peg-regular text-2xl xl:text-8xl px-4 py-8`}>
+      <span className={`bg-gradient-to-l from-lime-500 to-zinc-300 flex justify-center items-center gap-3 text-center square-peg-regular text-4xl xl:text-8xl p-4`}>
         Entre em contato e agende agora mesmo
         <span className={`text-sky-700`}>
           <Link
