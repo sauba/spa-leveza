@@ -5,16 +5,18 @@ import NavbarDropdownMenuPages from "@/components/NavbarDropdownPages";
 import { WhatsappLogo } from "@phosphor-icons/react";
 import "./styles.css";
 
-export default function LeveTarotTypes() {
+export default function LeveTarotPage() {
   return (
-    <div className={`w-full min-h-screen flex flex-col text-sky-700`} id="levetarotfull">
+    <div className={`w-full min-h-screen flex flex-col text-sky-700 overflow-hidden`} id="levetarotfull">
       <NavbarDropdownMenuPages />
-      <div className={``}>
-        <ModalidadeTarotTiragemAreasDaVida />
-      </div>
-      <div className={``}>
-        <ModalidadeTarotTiragemLivre />
-        <ModalidadeTarotTiragemLunar />
+      <div className={`flex`}>
+        <div className={``}>
+          <ModalidadeTarotTiragemAreasDaVida />
+        </div>
+        <div className={``}>
+          <ModalidadeTarotTiragemLivre />
+          <ModalidadeTarotTiragemLunar />
+        </div>
       </div>
 
       <p className={`bg-gradient-to-l from-lime-500 to-zinc-300 flex justify-center items-center gap-3 text-center square-peg-regular text-2xl xl:text-8xl px-4 py-8`}>

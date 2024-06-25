@@ -1,4 +1,4 @@
-import { Clock } from "@phosphor-icons/react";
+import { Clock, MonitorPlay } from "@phosphor-icons/react";
 
 export default function ModalidadeTarotTiragemLunar() {
   return (
@@ -14,16 +14,22 @@ export default function ModalidadeTarotTiragemLunar() {
         outline-none
         border-none
         bg-zinc-300
+        hover:transition-transform
+        hover:scale-105
+        hover:cursor-pointer
       `} id="tiragemlunar">
-      <h1 className={`text-center text-2xl xl:text-8xl xl:pt-20 xl:pb-10`}>Tiragem Lunar</h1>
+      <h1 className={`text-center text-2xl xl:text-8xl xl:pb-4`}>Tiragem Lunar</h1>
       <p className={`ftext-center text-2xl xl:text-3xl px-4 font-pt-mono`}>
         Essa leitura é feita para o período de um mês lunar, começando pela energia da semana de fase de Lua Nova, seguindo com a Lua Crescente, Lua Cheia e por fim Lua Minguante.
       </p>
       <p className={`ftext-center text-2xl xl:text-3xl px-4 font-pt-mono`}>
         É uma leitura para você que percebe o seu movimento cíclico e quer apoio para trilhar essa jornada com mais clareza, sem perder os seus objetivos de vista e se mantendo conectada em meio ao seu movimento emocional.
       </p>
-      <p className={`flex justify-center items-center gap-3 text-center font-pt-mono text-2xl xl:text-3xl px-4 xl:pb-10`}>
-        <Clock />Duração de 1 hora; online, em tempo real ou gravada.
+      <p className={`flex justify-center items-center gap-3 text-center font-pt-mono text-2xl xl:text-3xl px-4`}>
+        <Clock size={48} weight="thin" />Duração de 1 hora;
+      </p>
+      <p className={`flex justify-center items-center gap-3 text-center font-pt-mono text-2xl xl:text-3xl px-4`}>
+        <MonitorPlay size={48} weight="thin" /> online, em tempo real ou gravada;
       </p>
     </div>
   )
