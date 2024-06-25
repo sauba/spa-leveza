@@ -42,7 +42,7 @@ export default function NavbarDropdownMenu() {
                          `}
                       >
                         <a
-                          href="/"
+                          href="https://levezaparaviver.com/"
                           className={`
                              flex
                              items-center
@@ -73,7 +73,7 @@ export default function NavbarDropdownMenu() {
                          `}
                       >
                         <a
-                          href="#levezaSelvagem"
+                          href="https://levezaparaviver.com/#levezaSelvagem"
                           className={`
                              flex
                              items-center
@@ -105,7 +105,7 @@ export default function NavbarDropdownMenu() {
                          `}
                       >
                         <a
-                          href="#levetarot"
+                          href="https://levezaparaviver.com/#levetarot"
                           className={`
                              flex
                              items-center
@@ -168,7 +168,7 @@ export default function NavbarDropdownMenu() {
                          `}
                       >
                         <a
-                          href="#contato"
+                          href="https://levezaparaviver.com/#contato"
                           className={`
                              flex
                              items-center
