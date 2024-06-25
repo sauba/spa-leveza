@@ -4,7 +4,7 @@ export default function ModalidadeTarotTiragemLivre() {
   return (
     <div className={`
         w-full
-        px-4
+        xl:px-4
         tiragemlivre
         flex
         flex-col

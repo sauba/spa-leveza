@@ -4,7 +4,7 @@ export default function ModalidadeTarotTiragemLunar() {
   return (
     <div className={`
         w-full
-        px-4
+        xl:px-4
         tiragemlunar
         flex
         flex-col
