@@ -10,7 +10,7 @@ export default function Footer() {
     >
       <div className={`w-full flex flex-col justify-center items-center mx-auto`}>
         <span
-          className={`text-4xl lg:text-6xl text-center font-allura text-sky-700 pt-4`}
+          className={`text-4xl lg:text-6xl text-center font-allura text-sky-700 pt-16`}
         >
           Daniele Andrade
         </span>
