@@ -15,12 +15,10 @@ export default function ModalidadeTarotTiragemLunar() {
         outline-none
         border-none
         bg-zinc-300
-        hover:transition-transform
-        hover:scale-105
         hover:cursor-pointer
-                hover:rounded-bl-3xl
+        hover:rounded-bl-3xl
       `} id="tiragemlunar">
-      <h1 className={`text-center text-6xl xl:text-8xl xl:pb-10`}>Tiragem Lunar</h1>
+      <h1 className={`text-center text-6xl xl:text-8xl xl:py-10`}>Tiragem Lunar</h1>
       <p className={`text-center text-lg xl:text-2xl px-4 font-pt-mono`}>
         Essa leitura é feita para o período de um mês lunar, começando pela energia da semana de fase de Lua Nova, seguindo com a Lua Crescente, Lua Cheia e por fim Lua Minguante.
       </p>
