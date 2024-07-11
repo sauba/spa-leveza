@@ -1,19 +1,19 @@
-import { useEffect, useRef } from "react";
+// import { useEffect, useRef } from "react";
 
 export default function VideoPlayer() {
-  const videoEl = useRef(null);
+  // const videoEl = useRef(null);
 
-  const attemptPlay = () => {
-    videoEl &&
-      videoEl.current &&
-      videoEl.current.play().catch(error => {
-        console.error("Error attempting to play", error);
-      });
-  };
+  // const attemptPlay = () => {
+  //   videoEl &&
+  //     videoEl.current &&
+  //     videoEl.current.play().catch(error => {
+  //       console.error("Erro ao iniciar video", error);
+  //     });
+  // };
 
-  useEffect(() => {
-    attemptPlay();
-  }, []);
+  // useEffect(() => {
+  //   attemptPlay();
+  // }, []);
 
   return (
     <div className="videoplayer relative z-10">
@@ -25,7 +25,7 @@ export default function VideoPlayer() {
           muted
           alt="woman showing tarot cards"
           src="/videotarot.mp4"
-          ref={videoEl}
+        // ref={videoEl}
         />
       </div>
     </div>
