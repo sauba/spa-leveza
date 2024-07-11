@@ -23,7 +23,6 @@ export default function VideoPlayer() {
           playsInline
           loop
           muted
-          alt="woman showing tarot cards"
           src="/videotarot.mp4"
         // ref={videoEl}
         />
