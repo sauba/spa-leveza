@@ -21,6 +21,7 @@ export default function VideoPlayer() {
         <video
           style={{ maxWidth: "100%", margin: "0 auto" }}
           playsInline
+          autoPlay
           loop
           muted
           src="/videotarot.mp4"
