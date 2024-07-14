@@ -44,12 +44,7 @@ export default function LeveTarot() {
 
         <Link href="/servicos/tarot" className={`w-4/12 rounded-3xl bg-own-blue text-zinc-100 text-xl my-8 p-2 font-pt-mono z-10`}>Saiba Mais</Link>
       </div>
-
       <VideoPlayer />
-
-
-
-
     </div>
   )
 }
