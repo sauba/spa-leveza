@@ -1,6 +1,6 @@
 // import { useEffect, useRef } from "react";
 
-export default function VideoPlayer() {
+export default function VideoPlayerRetangular() {
   // const videoEl = useRef(null);
 
   // const attemptPlay = () => {
@@ -24,7 +24,7 @@ export default function VideoPlayer() {
           autoPlay
           loop
           muted
-          src="/videotarot.mp4"
+          src="/video01.mp4"
         // ref={videoEl}
         />
       </div>
