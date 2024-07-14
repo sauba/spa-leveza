@@ -139,7 +139,8 @@ const config: Config = {
         '4xl': '4096px',
       },
       colors: {
-        "own-blue": "#a1c8e6"
+        "own-blue": "#a1c8e6",
+        "own-coral": "#7D5B8C"
       }
     },
   },
