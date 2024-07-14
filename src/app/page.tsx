@@ -7,7 +7,7 @@ import LeveTarot from "@/components/LeveTarot";
 
 export default function Home() {
   return (
-    <main className="w-full flex min-h-screen flex-col bg-own-coral items-center justify-center">
+    <main className="w-full flex min-h-screen flex-col bg-own-blue-dark items-center justify-center">
       <Header />
       <About />
       <LeveTarot />

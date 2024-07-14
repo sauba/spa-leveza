@@ -142,6 +142,10 @@ const config: Config = {
         "own-blue": "#a1c8e6",
         "own-coral": "#7D5B8C",
         "own-purple-light": "#9E798F",
+        "own-blue-dark": "#465375",
+        "own-roxo": "#9B5B7D",
+        "own-pink": "#B36372",
+        "own-blueberry": "#6B7A8F",
       }
     },
   },
