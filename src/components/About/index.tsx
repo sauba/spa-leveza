@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className={`
         w-full
-        xl:min-h-screen
+        min-h-screen
         py-14
         about
         flex
