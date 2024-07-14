@@ -8,7 +8,7 @@ export default function LeveTarot() {
     <div className={`
         w-full
         levetarot
-        py-16
+        pb-16
         flex
         flex-col
         justify-center
