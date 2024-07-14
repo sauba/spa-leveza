@@ -140,7 +140,8 @@ const config: Config = {
       },
       colors: {
         "own-blue": "#a1c8e6",
-        "own-coral": "#7D5B8C"
+        "own-coral": "#7D5B8C",
+        "own-purple-light": "#9E798F",
       }
     },
   },
