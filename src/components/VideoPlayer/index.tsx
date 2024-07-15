@@ -6,7 +6,7 @@ export default function VideoPlayer() {
     <div className="w-full xl:h-1/2 videoplayer relative z-10">
       <div className={``}>
         <video
-          style={{ width: "100%", height: "100%", margin: "0 auto" }}
+          style={{ maxWidth: "100%", maxHeight: "100%", margin: "0 auto" }}
           playsInline
           autoPlay
           loop
