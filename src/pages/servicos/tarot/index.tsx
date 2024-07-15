@@ -8,7 +8,7 @@ import "./styles.css";
 
 export default function LeveTarotPage() {
   return (
-    <div className={`w-full min-h-screen flex flex-col text-sky-700 overflow-hidden`} id="levetarotfull">
+    <div className={`w-full min-h-screen flex flex-col bg-own-roxo text-zinc-100 overflow-hidden`} id="levetarotfull">
       <NavbarDropdownMenuPages />
       <ModalidadeTarotTiragemAreasDaVida />
       <ModalidadeTarotTiragemLivre />
