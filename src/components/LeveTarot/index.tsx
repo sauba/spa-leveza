@@ -23,11 +23,9 @@ export default function LeveTarot() {
         <h1 className={`text-center text-6xl lg:text-8xl square-peg-regular pb-4 lg:pt-0`}>Leve Tarot</h1>
 
         <Accordion className="text-zinc-400 rounded-3xl">
-          <p className={`mx-24 py-4 text-center text-lg xl:text-xl 2xl:text-2xl tracking-wider font-pt-mono pb-4 bg-own-roxo/50 rounded-xl`}>Tarot, uma sabedoria milenar que podemos aproximar das nossas vidas  através das leituras, também conhecidas como tiragens. Vamos entender juntas.</p>
-
           <AccordionItem indicator key="1" aria-label="O que é ?" title={<span style={{ fontSize: '20px', display: "flex", alignItems: "center", justifyContent: "center", gap: 6, backgroundColor: '#ffffff', color: '#A9A9A9', borderRadius: '32px', borderColor: 'white', outline: 'none', padding: '16px', width: '300px', margin: 'auto' }}><ArrowCircleDown />O que é ?</span>} className={`mx-24 text-3xl xl:text-6xl font-pt-mono`}>
             <p className={`px-2 lg:px-20 py-4 text-center text-xl 2xl:text-2xl tracking-wider font-pt-mono text-zinc-100 bg-own-roxo/50 rounded-xl`}>
-              O Tarot é uma ferramenta de autoconhecimento, que representa um mistério para muitos de nós. Nada que também não aconteça com a própria temática ‘autoconhecimento’, que, culturalmente, foi tão afastada de nós... Mas, relaxa, nós estamos aqui, justamente, em prol dessa merecida reconexão!
+              Tarot, uma sabedoria milenar que podemos aproximar das nossas vidas  através das leituras, também conhecidas como tiragens. Vamos entender juntas. O Tarot é uma ferramenta de autoconhecimento, que representa um mistério para muitos de nós. Nada que também não aconteça com a própria temática ‘autoconhecimento’, que, culturalmente, foi tão afastada de nós... Mas, relaxa, nós estamos aqui, justamente, em prol dessa merecida reconexão!
             </p>
           </AccordionItem>
           <AccordionItem indicator key="2" aria-label="Como Experienciar ?" title={<span style={{ fontSize: '20px', display: "flex", alignItems: "center", justifyContent: "center", gap: 6, backgroundColor: '#ffffff', color: '#A9A9A9', borderRadius: '32px', borderColor: 'white', outline: 'none', padding: '16px', width: '300px', margin: 'auto' }}><ArrowCircleDown />Como Experienciar ?</span>} className={`mx-24 text-3xl xl:text-6xl font-pt-mono`} >
