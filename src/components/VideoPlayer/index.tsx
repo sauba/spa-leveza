@@ -3,8 +3,8 @@
 export default function VideoPlayer() {
 
   return (
-    <div className="w-full xl:h-1/2 videoplayer relative z-10">
-      <div className={``}>
+    <div className="w-full videoplayer relative z-10">
+      <div className={`w-full h-screen`}>
         <video
           style={{ maxWidth: "100%", maxHeight: "100%", margin: "0 auto" }}
           playsInline
