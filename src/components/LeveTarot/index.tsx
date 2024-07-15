@@ -20,7 +20,7 @@ export default function LeveTarot() {
         text-zinc-100
       `} id="levetarot">
       <div className={`w-full absolute z-30 my-16 py-8`}>
-        <h1 className={`text-center text-9xl text-own-roxo square-peg-regular pb-4 lg:pt-0`}>Leve Tarot</h1>
+        <h1 className={`text-center text-9xl text-own-roxo square-peg-regular`}>Leve Tarot</h1>
 
         <Accordion className="text-zinc-400 rounded-3xl py-8">
           <AccordionItem indicator key="1" aria-label="O que é ?" title={<span style={{ fontSize: '20px', display: "flex", alignItems: "center", justifyContent: "center", gap: 6, backgroundColor: '#ffffff', color: '#A9A9A9', borderRadius: '32px', borderColor: 'white', outline: 'none', padding: '16px', width: '300px', margin: 'auto' }}><ArrowCircleDown />O que é ?</span>} className={`mx-24 text-3xl xl:text-6xl font-pt-mono`}>
