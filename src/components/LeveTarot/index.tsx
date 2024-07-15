@@ -19,7 +19,7 @@ export default function LeveTarot() {
         font-caveat
         text-zinc-100
       `} id="levetarot">
-      <div className={`w-full absolute z-30 py-8`}>
+      <div className={`w-full absolute z-30 my-16 py-8`}>
         <h1 className={`text-center text-6xl lg:text-8xl square-peg-regular pb-4 lg:pt-0`}>Leve Tarot</h1>
 
         <Accordion className="text-zinc-400 rounded-3xl py-8">
