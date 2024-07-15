@@ -16,10 +16,9 @@ export default function LeveTarot() {
         outline-none
         border-none
         font-caveat
-        bg-own-roxo/50
         text-zinc-100
       `} id="levetarot">
-      <div className={`w-full absolute z-30`}>
+      <div className={`w-full absolute z-30 py-8 bg-own-roxo/50`}>
         <h1 className={`text-center text-6xl lg:text-8xl square-peg-regular pb-4 pt-40 lg:pt-0`}>Leve Tarot</h1>
 
         <p className={`px-4 lg:px-24 text-center text-lg xl:text-xl 2xl:text-2xl tracking-wider font-pt-mono pb-4`}>Tarot, uma sabedoria milenar que podemos aproximar das nossas vidas  através das leituras, também conhecidas como tiragens. Vamos entender juntas.</p>
@@ -42,7 +41,7 @@ export default function LeveTarot() {
           </AccordionItem>
         </Accordion>
 
-        <Link href="/servicos/tarot" className={`w-4/12 rounded-3xl bg-own-blue text-zinc-100 text-xl my-8 p-2 font-pt-mono z-10`}>Saiba Mais</Link>
+        <Link href="/servicos/tarot" className={`w-4/12 rounded-3xl bg-own-roxo text-zinc-100 text-xl my-8 px-4 py-2 font-pt-mono z-10`}>Saiba Mais</Link>
       </div>
       <VideoPlayer />
     </div>
