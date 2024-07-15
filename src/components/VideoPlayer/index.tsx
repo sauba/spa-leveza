@@ -3,7 +3,7 @@
 export default function VideoPlayer() {
 
   return (
-    <div className="w-full xl:h-4/6 videoplayer relative z-10">
+    <div className="w-full xl:h-1/2 videoplayer relative z-10">
       <div className={``}>
         <video
           style={{ width: "100%", height: "100%", margin: "0 auto" }}
