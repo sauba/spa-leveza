@@ -14,7 +14,6 @@ export default function ModalidadeTarotTiragemLivre() {
         square-peg-regular
         outline-none
         border-none
-        bg-zinc-300
         hover:cursor-pointer
       `} id="tiragemlivre">
       <h1 className={`text-center text-6xl xl:text-8xl xl:py-10`}>Tiragem Livre</h1>

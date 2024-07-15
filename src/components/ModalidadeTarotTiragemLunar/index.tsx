@@ -14,7 +14,6 @@ export default function ModalidadeTarotTiragemLunar() {
         square-peg-regular
         outline-none
         border-none
-        bg-zinc-300
         hover:cursor-pointer
         hover:rounded-bl-3xl
       `} id="tiragemlunar">

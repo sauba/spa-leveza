@@ -16,7 +16,6 @@ export default function ModalidadeTarotTiragemAreasDaVida() {
         text-center
         outline-none
         border-none
-        bg-zinc-300
         hover:cursor-pointer
         hover:rounded-br-3xl
       `} id="tiragemareasdavida">
