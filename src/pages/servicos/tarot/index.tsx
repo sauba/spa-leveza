@@ -4,7 +4,6 @@ import ModalidadeTarotTiragemLunar from "@/components/ModalidadeTarotTiragemLuna
 import NavbarDropdownMenuPages from "@/components/NavbarDropdownPages";
 import { WhatsappLogo } from "@phosphor-icons/react";
 import Link from "next/link";
-import "../../../app/global.css";
 
 export default function LeveTarotPage() {
   return (
