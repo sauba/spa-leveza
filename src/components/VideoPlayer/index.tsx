@@ -24,7 +24,7 @@ export default function VideoPlayerRetangular() {
           autoPlay
           loop
           muted
-          src="/videotarot.mp4"
+          src="/video01.mp4"
         // ref={videoEl}
         />
       </div>
