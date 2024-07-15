@@ -3,7 +3,7 @@
 export default function VideoPlayer() {
 
   return (
-    <div className="w-full videoplayer relative z-10">
+    <div className="w-full min-h-screen videoplayer relative z-10">
       <div className={`w-full h-screen`}>
         <video
           style={{ maxWidth: "100%", maxHeight: "100%", margin: "0 auto" }}
