@@ -40,7 +40,7 @@ export default function LeveTarot() {
           </AccordionItem>
         </Accordion>
 
-        <Link href="/servicos/tarot" className={`w-4/12 rounded-3xl bg-own-roxo text-zinc-100 text-xl my-8 px-4 py-8 font-pt-mono z-10`}>Saiba Mais</Link>
+        <Link href="/servicos/tarot" className={`w-4/12 rounded-3xl bg-own-roxo text-zinc-100 text-xl my-8 px-4 py-2 font-pt-mono z-10`}>Saiba Mais</Link>
       </div>
       <VideoPlayer />
     </div>
