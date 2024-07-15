@@ -38,6 +38,7 @@ const config: Config = {
         'lobster': ['Lobster', 'sans-serif'],
       },
       backgroundImage: {
+        "fundo-leve-tarot": "url('/bgLeveTarot.svg')",
         "fundo-leveza": "url('/logo.svg')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

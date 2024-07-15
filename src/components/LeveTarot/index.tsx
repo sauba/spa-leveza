@@ -8,7 +8,6 @@ export default function LeveTarot() {
     <div className={`
         w-full
         levetarot
-        pb-16
         flex
         flex-col
         justify-center
@@ -20,8 +19,9 @@ export default function LeveTarot() {
         bg-own-roxo/50
         text-zinc-100
       `} id="levetarot">
-      <h1 className={`text-center text-6xl lg:text-8xl square-peg-regular pb-4 pt-40 lg:pt-0`}>Leve Tarot</h1>
       <div className={`w-full absolute z-30`}>
+        <h1 className={`text-center text-6xl lg:text-8xl square-peg-regular pb-4 pt-40 lg:pt-0`}>Leve Tarot</h1>
+
         <p className={`px-4 lg:px-24 text-center text-lg xl:text-xl 2xl:text-2xl tracking-wider font-pt-mono pb-4`}>Tarot, uma sabedoria milenar que podemos aproximar das nossas vidas  através das leituras, também conhecidas como tiragens. Vamos entender juntas.</p>
 
         <Accordion className="text-zinc-400 rounded-3xl">
