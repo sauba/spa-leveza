@@ -11,7 +11,7 @@ export default function LeveTarot() {
         levetarot
         flex
         flex-col
-        justify-center
+        justify-start
         items-center
         text-center
         outline-none
