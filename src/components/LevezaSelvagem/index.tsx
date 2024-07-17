@@ -17,7 +17,7 @@ export default function LevezaSelvagem() {
         text-zinc-100
       `} id="levezaselvagem">
       <div className={`w-full z-30 my-16 py-4`}>
-        <h1 className={`text-center text-8xl text-own-roxo square-peg-regular`}>Leveza Selvagem</h1>
+        <h1 className={`text-center text-8xl square-peg-regular`}>Leveza Selvagem</h1>
 
         <p className={`px-4 lg:px-24 text-center text-lg xl:text-xl 2xl:text-2xl tracking-wider font-pt-mono`}>
           O Leveza Selvagem foi criado para nós Mulheres abrirmos espaço para nós mesmas.
