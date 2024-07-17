@@ -25,8 +25,12 @@ export default function LevezaSelvagem() {
           Aqui aprendemos, despertamos, reconectamos e expandimos nossa Natureza Feminina.
         </p>
 
+        <p className={`px-4 lg:px-24 text-center text-lg xl:text-xl 2xl:text-2xl tracking-wider font-pt-mono`}>
+          Conheça nossas propostas terapêuticas
+        </p>
+
         <span className={`rounded-3xl text-zinc-100 text-xl px-4 py-2 my-8 font-pt-mono z-10`}>
-          <Link href="/servicos/levezaselvagem" className={``}>Conheça nossas propostas terapêuticas</Link>
+          <Link href="/servicos/levezaselvagem" className={``}>Saiba Mais</Link>
         </span>
       </div>
     </div>
