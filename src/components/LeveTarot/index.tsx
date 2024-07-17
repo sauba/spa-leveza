@@ -17,6 +17,7 @@ export default function LeveTarot() {
         outline-none
         border-none
         font-caveat
+        bg-own-roxo
         text-zinc-100
       `} id="levetarot">
       <div className={`w-full absolute z-30 my-16 py-4`}>
