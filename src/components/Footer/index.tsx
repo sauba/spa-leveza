@@ -10,24 +10,24 @@ export default function Footer() {
     >
       <div className={`w-full flex flex-col justify-center items-center mx-auto`}>
         <span
-          className={`text-4xl lg:text-6xl text-center font-allura text-own-purple-light pt-16`}
+          className={`text-4xl lg:text-6xl text-center font-allura text-zinc-100 pt-16`}
         >
           Daniele Andrade
         </span>
 
-        <span className={`text-lg pb-1 tracking-wider flex-wrap text-own-purple-light`}>
+        <span className={`text-lg pb-1 tracking-wider flex-wrap text-zinc-100`}>
           Terapeuta
         </span>
 
         <span
-          className={`text-lg tracking-widest flex-wrap text-own-purple-light`}
+          className={`text-lg tracking-widest flex-wrap text-zinc-100`}
         >
           Entre em Contato:
         </span>
 
         <div className={`flex justify-center items-center py-8 gap-6 z-40`}>
           <div className={``}>
-            <span className={`text-own-purple-light`}>
+            <span className={`text-zinc-100`}>
               <Link
                 href="https://www.instagram.com/levezaparaviver/"
                 target="_blank"
@@ -38,7 +38,7 @@ export default function Footer() {
             </span>
           </div>
           <div className={``}>
-            <span className={`text-own-purple-light`}>
+            <span className={`text-zinc-100`}>
               <Link
                 href="https://wa.me/5581989689423"
                 target="_blank"
@@ -50,7 +50,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <p className="font-bad-script text-center text-own-purple-light">Leveza Para Viver © 2024 Todos os direitos reservados.</p>
+        <p className="font-bad-script text-center text-zinc-100">Leveza Para Viver © 2024 Todos os direitos reservados.</p>
 
         <svg className={`w-full xl:h-1/4 justify-center items-center mx-auto overflow-hidden z-10 xl:-mt-96`} version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900">
           <defs>
