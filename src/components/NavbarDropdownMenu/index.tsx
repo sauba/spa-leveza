@@ -67,6 +67,37 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
+                            ? "bg-zinc-400 border-none cursor-pointer text-zinc-100 font-thin hover:rounded-x-2xl hover:xl:text-2xl"
+                            : "text-zinc-400 font-thin"
+                          }
+                         `}
+                      >
+                        <a
+                          href="#levetarot"
+                          className={`
+                             flex
+                             items-center
+                             px-4
+                             py-2
+                             text-2xl
+                             xl:text-3xl
+                           `}
+                        >
+                          Leve Tarot
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                           flex
+                          
+                           justify-center
+                           items-center
+                           ${active
                             ? "bg-zinc-400 border-none cursor-pointer text-zinc-100 text-center font-thin hover:rounded-x-2xl"
                             : "text-zinc-400 font-thin"
                           }
@@ -85,37 +116,6 @@ export default function NavbarDropdownMenu() {
                            `}
                         >
                           Leveza Selvagem
-                        </a>
-                      </div>
-                    )}
-                  </Menu.Item>
-
-                  <Menu.Item>
-                    {({ active }) => (
-                      <div
-                        className={`
-                           flex
-                          
-                           justify-center
-                           items-center
-                           ${active
-                            ? "bg-zinc-400 border-none cursor-pointer text-zinc-100 font-thin hover:rounded-x-2xl hover:xl:text-2xl"
-                            : "text-zinc-400 font-thin"
-                          }
-                         `}
-                      >
-                        <a
-                          href="#levetarot"
-                          className={`
-                             flex
-                             items-center
-                             px-4
-                             py-2
-                             text-2xl
-                             xl:text-3xl
-                           `}
-                        >
-                          Leve Tarot
                         </a>
                       </div>
                     )}
