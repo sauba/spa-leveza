@@ -14,6 +14,7 @@ export default function LevezaSelvagem() {
         outline-none
         border-none
         font-caveat
+        bg-own-pink
         text-zinc-100
       `} id="levezaselvagem">
       <div className={`w-full z-30 my-16 py-4`}>
