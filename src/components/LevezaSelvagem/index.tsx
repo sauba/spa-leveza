@@ -17,14 +17,16 @@ export default function LevezaSelvagem() {
         text-zinc-100
       `} id="levezaselvagem">
       <div className={`w-full z-30 my-16 py-4`}>
-        <h1 className={`text-center text-9xl text-own-roxo square-peg-regular`}>Leveza Selvagem</h1>
+        <h1 className={`text-center text-8xl text-own-roxo square-peg-regular`}>Leveza Selvagem</h1>
 
-        <p className={`px-4 lg:px-24 text-center text-lg xl:text-xl 2xl:text-2xl tracking-wider`}>
+        <p className={`px-4 lg:px-24 text-center text-lg xl:text-xl 2xl:text-2xl tracking-wider font-pt-mono`}>
           O Leveza Selvagem foi criado para nós Mulheres abrirmos espaço para nós mesmas.
           Aqui aprendemos, despertamos, reconectamos e expandimos nossa Natureza Feminina.
         </p>
 
-        <Link href="/servicos/levezaselvagem" className={`w-4/12 rounded-3xl bg-own-roxo text-zinc-100 text-xl px-4 py-2 font-pt-mono z-10`}>Conheça nossas propostas terapêuticas</Link>
+        <span className={`rounded-3xl bg-own-roxo text-zinc-100 text-xl px-4 py-2 my-8 font-pt-mono z-10`}>
+          <Link href="/servicos/levezaselvagem" className={`w-4/12`}>Conheça nossas propostas terapêuticas</Link>
+        </span>
       </div>
     </div>
   )
