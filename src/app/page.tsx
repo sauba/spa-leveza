@@ -11,8 +11,8 @@ export default function Home() {
     <main className="w-full flex min-h-screen flex-col bg-own-blue-dark items-center justify-center">
       <Header />
       <About />
-      <LevezaSelvagem />
       <LeveTarot />
+      <LevezaSelvagem />
       <Footer />
     </main>
   );

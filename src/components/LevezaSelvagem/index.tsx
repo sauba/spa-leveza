@@ -8,7 +8,7 @@ export default function LevezaSelvagem() {
         levezaselvagem
         flex
         flex-col
-        justify-center
+        justify-start
         items-center
         text-center
         outline-none
