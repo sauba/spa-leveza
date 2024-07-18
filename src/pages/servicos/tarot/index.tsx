@@ -13,7 +13,7 @@ export default function LeveTarotPage() {
 
       <Image src={`/danicartas.svg`} width={200} height={200} className={`rounded-full mx-auto hover:transition-transform hover:scale-110 hover:cursor-none`} priority alt="" />
 
-      <div className={`grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-5 gap-3`}>
+      <div className={`grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-3`}>
         <div className={`card m-8`}>
           <div className={`card-header`}>
             <Image src={`/01.svg`} width={168} height={120} className={`w-full rounded-t-xl mx-auto`} priority alt="" />
