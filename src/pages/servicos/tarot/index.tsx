@@ -19,7 +19,7 @@ export default function LeveTarotPage() {
             <Image src={`/01.svg`} width={168} height={120} className={`w-full rounded-t-xl mx-auto`} priority alt="" />
           </div>
 
-          <div className={`card-body bg-zinc-100 h-96`}>
+          <div className={`card-body bg-zinc-100 xl:h-96`}>
             <p className={`text-center text-4xl text-zinc-400 pt-1 font-bold square-peg-regular pb-2`}>Perguntas</p>
             <p className={`text-center text-zinc-400 px-1 font-pt-mono`}>Essa tiragem é pra você que tem perguntas específicas. Você pode fazer até 5 perguntas e as cartas serão tiradas nesta energia.</p>
           </div>
@@ -34,7 +34,7 @@ export default function LeveTarotPage() {
             <Image src={`/02.svg`} width={168} height={120} className={`w-full rounded-t-xl mx-auto`} priority alt="" />
           </div>
 
-          <div className={`card-body bg-zinc-100 h-96`}>
+          <div className={`card-body bg-zinc-100 xl:h-96`}>
             <p className={`text-center text-4xl text-zinc-400 pt-1 font-bold square-peg-regular pb-2`}>Áreas da Vida</p>
             <p className={`text-center text-zinc-400 px-1 font-pt-mono`}>Nesse formato, tiramos as cartas para fazer a leitura da energia da sua área pessoal, profissional, amorosa, familiar, financeira, de saúde e espiritual.</p>
           </div>
@@ -49,7 +49,7 @@ export default function LeveTarotPage() {
             <Image src={`/03.svg`} width={168} height={120} className={`w-full rounded-t-xl mx-auto`} priority alt="" />
           </div>
 
-          <div className={`card-body bg-zinc-100 h-96`}>
+          <div className={`card-body bg-zinc-100 xl:h-96`}>
             <p className={`text-center text-4xl text-zinc-400 pt-1 font-bold square-peg-regular pb-2`}>Cruz Celta</p>
             <p className={`text-center text-zinc-400 px-1 font-pt-mono`}>Um modelo em que nos debruçamos sobre uma situação, observando o que está a atravessando, o que está posto, que se tem conhecimento, o que está oculto, questões do passado e futuro recentes relacionados a situação, atitude atual, como os  outros interagem com esta questão, seus medos/esperanças e o possível resultado dessa situação vivida.</p>
 
@@ -65,7 +65,7 @@ export default function LeveTarotPage() {
             <Image src={`/04.svg`} width={168} height={120} className={`w-full rounded-t-xl mx-auto`} priority alt="" />
           </div>
 
-          <div className={`card-body bg-zinc-100 h-96`}>
+          <div className={`card-body bg-zinc-100 xl:h-96`}>
             <p className={`text-center text-4xl text-zinc-400 pt-1 font-bold square-peg-regular pb-2`}>Ciclo Lunar</p>
             <p className={`text-center text-zinc-400 px-1 font-pt-mono`}>Aqui, tiramos as cartas trazendo a previsão do seu ciclo lunar. Olhamos pras 4 fases (lua nova, lua crescente, lua cheia e lua minguante), trazendo a energia de cada uma e observando como as sugestões se relacionam. Excelente pra quem busca clareza, planejamento e ação. É possível fazer algumas perguntas durante a leitura.</p>
           </div>
@@ -80,7 +80,7 @@ export default function LeveTarotPage() {
             <Image src={`/05.svg`} width={168} height={120} className={`w-full rounded-t-xl mx-auto`} priority alt="" />
           </div>
 
-          <div className={`card-body bg-zinc-100 h-96`}>
+          <div className={`card-body bg-zinc-100 xl:h-96`}>
             <p className={`text-center text-4xl text-zinc-400 pt-1 font-bold square-peg-regular pb-2`}>Ano Novo Pessoal</p>
             <p className={`text-center text-zinc-400 px-1 font-pt-mono`}>Essa é sua tiragem de aniversário, feita a partir de sua data de aniversário, com a manifestação da energia pra cada um dos meses do seu novo ciclo, até a data do próximo.</p>
           </div>
@@ -95,7 +95,7 @@ export default function LeveTarotPage() {
             <Image src={`/06.svg`} width={168} height={120} className={`w-full rounded-t-xl mx-auto`} priority alt="" />
           </div>
 
-          <div className={`card-body bg-zinc-100 h-96`}>
+          <div className={`card-body bg-zinc-100 xl:h-96`}>
             <p className={`text-center text-4xl text-zinc-400 pt-1 font-bold square-peg-regular pb-2`}>Tarot Astrológico</p>
             <p className={`text-center text-zinc-400 px-1 font-pt-mono`}>Essa é uma leitura mais ampla. Ela traz um olhar sobre seus aspectos naturais, olhando sua energia de ação, material, mental e emocional. E, segue contemplando as 12 casas astrológicas. Cada casa astrológica é representada por um signo, que, por sua vez, manifesta uma temática da nossa vida. Observação: não é mapa astral e não precisa ter mapa astral.</p>
           </div>
