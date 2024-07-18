@@ -11,7 +11,7 @@ export default function LeveTarotPage() {
 
       <h1 className={`text-center text-8xl square-peg-regular pt-8`}>Leve Tarot</h1>
 
-      <Image src={`/danicartas.svg`} width={200} height={200} className={`rounded-full mx-auto hover:transition-transform hover:scale-110 hover:cursor-none`} priority alt="" />
+      <Image src={`/danicartas.svg`} width={300} height={300} className={`rounded-full mx-auto hover:transition-transform hover:scale-110 hover:cursor-none`} priority alt="" />
 
       <div className={`grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-3`}>
         <div className={`card m-8`}>
