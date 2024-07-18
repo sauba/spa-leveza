@@ -19,11 +19,11 @@ export default function LeveTarotPage() {
 
           <div className={`card-body bg-zinc-100 h-80`}>
             <p className={`text-center text-4xl text-zinc-400 pt-1 font-bold square-peg-regular`}>Perguntas</p>
-            <p className={`text-justify text-zinc-400 px-1 font-pt-mono`}>Essa tiragem é pra você que tem perguntas específicas. Você pode fazer até 5 perguntas e as cartas serão tiradas nesta energia. Duração: aproximadamente 45 minutos.</p>
+            <p className={`text-center text-zinc-400 px-1 font-pt-mono`}>Essa tiragem é pra você que tem perguntas específicas. Você pode fazer até 5 perguntas e as cartas serão tiradas nesta energia.</p>
           </div>
 
           <div className={`card-footer`}>
-
+            <p className={`text-center text-zinc-400 px-1 font-pt-mono`}>Duração: aproximadamente 45 minutos.</p>
           </div>
         </div>
 
@@ -34,11 +34,11 @@ export default function LeveTarotPage() {
 
           <div className={`card-body bg-zinc-100 h-80`}>
             <p className={`text-center text-4xl text-zinc-400 pt-1 font-bold square-peg-regular`}>Áreas da Vida</p>
-            <p className={`text-justify text-zinc-400 px-1 font-pt-mono`}>Nesse formato, tiramos as cartas para fazer a leitura da energia da sua área pessoal, profissional, amorosa, familiar, financeira, de saúde e espiritual. Duração:  aproximadamente 1 hora.</p>
+            <p className={`text-center text-zinc-400 px-1 font-pt-mono`}>Nesse formato, tiramos as cartas para fazer a leitura da energia da sua área pessoal, profissional, amorosa, familiar, financeira, de saúde e espiritual.</p>
           </div>
 
           <div className={`card-footer`}>
-
+            <p className={`text-center text-zinc-400 px-1 font-pt-mono`}>Duração: aproximadamente 1 hora.</p>
           </div>
         </div>
 
@@ -49,11 +49,12 @@ export default function LeveTarotPage() {
 
           <div className={`card-body bg-zinc-100 h-80`}>
             <p className={`text-center text-4xl text-zinc-400 pt-1 font-bold square-peg-regular`}>Cruz Celta</p>
-            <p className={`text-justify text-zinc-400 px-1 font-pt-mono`}>Um modelo em que nos debruçamos sobre uma situação, observando o que está a atravessando, o que está posto, que se tem conhecimento, o que está oculto, questões do passado e futuro recentes relacionados a situação, atitude atual, como os  outros interagem com esta questão, seus medos/esperanças e o possível resultado dessa situação vivida. Duração: aproximadamente 1 hora e 30 minutos.</p>
+            <p className={`text-center text-zinc-400 px-1 font-pt-mono`}>Um modelo em que nos debruçamos sobre uma situação, observando o que está a atravessando, o que está posto, que se tem conhecimento, o que está oculto, questões do passado e futuro recentes relacionados a situação, atitude atual, como os  outros interagem com esta questão, seus medos/esperanças e o possível resultado dessa situação vivida.</p>
+
           </div>
 
           <div className={`card-footer`}>
-
+            <p className={`text-center text-zinc-400 px-1 font-pt-mono`}>Duração: aproximadamente 1 hora e 30 minutos.</p>
           </div>
         </div>
 
@@ -64,11 +65,11 @@ export default function LeveTarotPage() {
 
           <div className={`card-body bg-zinc-100 h-80`}>
             <p className={`text-center text-4xl text-zinc-400 pt-1 font-bold square-peg-regular`}>Ciclo Lunar</p>
-            <p className={`text-justify text-zinc-400 px-1 font-pt-mono`}>Aqui, tiramos as cartas trazendo a previsão do seu ciclo lunar. Olhamos pras 4 fases (lua nova, lua crescente, lua cheia e lua minguante), trazendo a energia de cada uma e observando como as sugestões se relacionam. Excelente pra quem busca clareza, planejamento e ação. É possível fazer algumas perguntas durante a leitura. Duração: aproximadamente 1 hora e 30 minutos.</p>
+            <p className={`text-center text-zinc-400 px-1 font-pt-mono`}>Aqui, tiramos as cartas trazendo a previsão do seu ciclo lunar. Olhamos pras 4 fases (lua nova, lua crescente, lua cheia e lua minguante), trazendo a energia de cada uma e observando como as sugestões se relacionam. Excelente pra quem busca clareza, planejamento e ação. É possível fazer algumas perguntas durante a leitura.</p>
           </div>
 
           <div className={`card-footer`}>
-
+            <p className={`text-center text-zinc-400 px-1 font-pt-mono`}>Duração: aproximadamente 1 hora e 30 minutos.</p>
           </div>
         </div>
 
@@ -79,11 +80,11 @@ export default function LeveTarotPage() {
 
           <div className={`card-body bg-zinc-100 h-80`}>
             <p className={`text-center text-4xl text-zinc-400 pt-1 font-bold square-peg-regular`}>Ano Novo Pessoal</p>
-            <p className={`text-justify text-zinc-400 px-1 font-pt-mono`}>Essa é sua tiragem de aniversário, feita a partir de sua data de aniversário, com a manifestação da energia pra cada um dos meses do seu novo ciclo, até a data do próximo. Duração: aproximadamente 1 hora e 30 minutos.</p>
+            <p className={`text-center text-zinc-400 px-1 font-pt-mono`}>Essa é sua tiragem de aniversário, feita a partir de sua data de aniversário, com a manifestação da energia pra cada um dos meses do seu novo ciclo, até a data do próximo.</p>
           </div>
 
           <div className={`card-footer`}>
-
+            <p className={`text-center text-zinc-400 px-1 font-pt-mono`}>Duração: aproximadamente 1 hora e 30 minutos.</p>
           </div>
         </div>
 
@@ -94,11 +95,11 @@ export default function LeveTarotPage() {
 
           <div className={`card-body bg-zinc-100 h-80`}>
             <p className={`text-center text-4xl text-zinc-400 pt-1 font-bold square-peg-regular`}>Tarot Astrológico</p>
-            <p className={`text-justify text-zinc-400 px-1 font-pt-mono`}>Essa é uma leitura mais ampla. Ela traz um olhar sobre seus aspectos naturais, olhando sua energia de ação, material, mental e emocional. E, segue contemplando as 12 casas astrológicas. Cada casa astrológica é representada por um signo, que, por sua vez, manifesta uma temática da nossa vida. Observação: não é mapa astral e não precisa ter mapa astral. Duração: aproximadamente 2 horas.</p>
+            <p className={`text-center text-zinc-400 px-1 font-pt-mono`}>Essa é uma leitura mais ampla. Ela traz um olhar sobre seus aspectos naturais, olhando sua energia de ação, material, mental e emocional. E, segue contemplando as 12 casas astrológicas. Cada casa astrológica é representada por um signo, que, por sua vez, manifesta uma temática da nossa vida. Observação: não é mapa astral e não precisa ter mapa astral.</p>
           </div>
 
           <div className={`card-footer`}>
-
+            <p className={`text-center text-zinc-400 px-1 font-pt-mono`}>Duração: aproximadamente 2 horas.</p>
           </div>
         </div>
 
