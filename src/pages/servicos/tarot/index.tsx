@@ -21,7 +21,7 @@ export default function LeveTarotPage() {
 
           <div className={`card-body bg-zinc-100 xl:h-96`}>
             <p className={`text-center text-6xl text-zinc-400 pt-1 font-bold square-peg-regular pb-2`}>Perguntas</p>
-            <p className={`text-center xl:text-2xl text-zinc-400 px-1 font-pt-mono`}>Essa tiragem é pra você que tem perguntas específicas. Você pode fazer até 5 perguntas e as cartas serão tiradas nesta energia.</p>
+            <p className={`text-center xl:text-2xl text-zinc-400 px-1 py-8 font-pt-mono`}>Essa tiragem é pra você que tem perguntas específicas. Você pode fazer até 5 perguntas e as cartas serão tiradas nesta energia.</p>
           </div>
 
           <div className={`card-footer bg-zinc-100 rounded-b-lg`}>
