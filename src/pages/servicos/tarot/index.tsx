@@ -9,7 +9,7 @@ export default function LeveTarotPage() {
     <div className={`w-full min-h-screen flex flex-col bg-own-roxo text-zinc-100 overflow-hidden`} id="levetarotfull">
       <NavbarDropdownMenuPages />
 
-      <h1 className={`text-center text-8xl square-peg-regular`}>Leve Tarot</h1>
+      <h1 className={`text-center text-8xl square-peg-regular pt-8`}>Leve Tarot</h1>
 
       <Image src={`/danicartas.svg`} width={200} height={200} className={`rounded-full mx-auto hover:transition-transform hover:scale-110 hover:cursor-none`} priority alt="" />
 
