@@ -1,7 +1,7 @@
 import NavbarDropdownMenuPages from "@/components/NavbarDropdownPages";
-import { Clock, WhatsappLogo } from "@phosphor-icons/react";
+import SpanWhatsapp from "@/components/SpanWhatsapp";
+import { Clock } from "@phosphor-icons/react";
 import Image from "next/image";
-import Link from "next/link";
 import "./styles.css";
 
 export default function LeveTarotPage() {
@@ -52,7 +52,6 @@ export default function LeveTarotPage() {
           <div className={`card-body bg-zinc-100 xl:h-96`}>
             <p className={`text-center text-6xl text-zinc-400 pt-1 font-bold square-peg-regular pb-2`}>Cruz Celta</p>
             <p className={`text-center xl:text-2xl text-zinc-400 px-1 py-8 font-pt-mono`}>Um modelo em que nos debruçamos sobre uma situação, observando o que está a atravessando, o que está posto, que se tem conhecimento, o que está oculto, questões do passado e futuro recentes relacionados a situação, atitude atual, como os  outros interagem com esta questão, seus medos/esperanças e o possível resultado dessa situação vivida.</p>
-
           </div>
 
           <div className={`card-footer bg-zinc-100 rounded-b-lg`}>
@@ -107,18 +106,7 @@ export default function LeveTarotPage() {
 
       </div>
 
-      <span className={`bg-gradient-to-l from-lime-500 to-zinc-300 flex justify-center items-center gap-3 text-center pt-1 square-peg-regular text-4xl xl:text-8xl py-32`}>
-        Entre em contato e agende agora mesmo.
-        <span className={`text-sky-700`}>
-          <Link
-            href="https://wa.me/5581989689423"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <WhatsappLogo size={56} weight="thin" />
-          </Link>
-        </span>
-      </span>
+      <SpanWhatsapp />
     </div>
   )
 }
