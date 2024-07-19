@@ -14,7 +14,7 @@ export default function LeveTarotPage() {
       <Image src={`/danicartas.svg`} width={300} height={300} className={`rounded-full mx-auto hover:transition-transform hover:scale-110 hover:cursor-none`} priority alt="" />
 
       <div className={`grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3`}>
-        <div className={`card my-4 mx-8`}>
+        <div className={`card m-2 `}>
           <div className={`card-header`}>
             <Image src={`/01.svg`} width={168} height={120} className={`w-full rounded-t-xl mx-auto`} priority alt="" />
           </div>
@@ -29,7 +29,7 @@ export default function LeveTarotPage() {
           </div>
         </div>
 
-        <div className={`card my-4 mx-8`}>
+        <div className={`card m-2 `}>
           <div className={`card-header`}>
             <Image src={`/02.svg`} width={168} height={120} className={`w-full rounded-t-xl mx-auto`} priority alt="" />
           </div>
@@ -44,7 +44,7 @@ export default function LeveTarotPage() {
           </div>
         </div>
 
-        <div className={`card my-4 mx-8`}>
+        <div className={`card m-2 `}>
           <div className={`card-header`}>
             <Image src={`/03.svg`} width={168} height={120} className={`w-full rounded-t-xl mx-auto`} priority alt="" />
           </div>
@@ -59,7 +59,7 @@ export default function LeveTarotPage() {
           </div>
         </div>
 
-        <div className={`card my-4 mx-8`}>
+        <div className={`card m-2 `}>
           <div className={`card-header`}>
             <Image src={`/04.svg`} width={168} height={120} className={`w-full rounded-t-xl mx-auto`} priority alt="" />
           </div>
@@ -74,7 +74,7 @@ export default function LeveTarotPage() {
           </div>
         </div>
 
-        <div className={`card my-4 mx-8`}>
+        <div className={`card m-2 `}>
           <div className={`card-header`}>
             <Image src={`/05.svg`} width={168} height={120} className={`w-full rounded-t-xl mx-auto`} priority alt="" />
           </div>
@@ -89,7 +89,7 @@ export default function LeveTarotPage() {
           </div>
         </div>
 
-        <div className={`card my-4 mx-8`}>
+        <div className={`card m-2 `}>
           <div className={`card-header`}>
             <Image src={`/06.svg`} width={168} height={120} className={`w-full rounded-t-xl mx-auto`} priority alt="" />
           </div>

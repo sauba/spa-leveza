@@ -12,7 +12,7 @@ export default function SpanWhatsapp() {
           rel="noopener noreferrer"
           className={`my-16`}
         >
-          <p className={`text-center text-xl text-wrap px-4 font-pt-mono`}>Entre em contato agora mesmo via Whatsapp</p>
+          <p className={`text-center text-5xl text-wrap px-4 square-peg-regular`}>Entre em contato via Whatsapp</p>
           <WhatsappLogo size={56} weight="thin" className={`mx-auto animate-indeterminate-bar text-lime-500`} />
         </Link>
       </Fragment>
