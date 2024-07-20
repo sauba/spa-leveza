@@ -2,6 +2,7 @@ import NavbarDropdownMenuPages from "@/components/NavbarDropdownPages";
 import SpanWhatsapp from "@/components/SpanWhatsapp";
 import { Clock } from "@phosphor-icons/react";
 import Image from "next/image";
+import { Fragment } from "react";
 import "./styles.css";
 
 export default function LeveTarotPage() {
@@ -9,9 +10,15 @@ export default function LeveTarotPage() {
     <div className={`w-full min-h-screen flex flex-col bg-own-roxo text-zinc-100 overflow-hidden`} id="levetarotfull">
       <NavbarDropdownMenuPages />
 
-      <h1 className={`text-center text-8xl square-peg-regular pt-8`}>Leve Tarot</h1>
+      <Fragment>
+        <span className={`bg-fundo-dani-cartas bg-left bg-no-repeat bg-contain py-96`}>
+          <h1 className={`text-center text-8xl square-peg-regular pt-8`}>Leve Tarot</h1>
+        </span>
+      </Fragment>
 
-      <Image src={`/danicartas.svg`} width={300} height={300} className={`rounded-full mx-auto hover:transition-transform hover:scale-110 hover:cursor-none`} priority alt="" />
+      {/* <h1 className={`text-center text-8xl square-peg-regular pt-8`}>Leve Tarot</h1> */}
+
+      {/* <Image src={`/danicartas.svg`} width={300} height={300} className={`rounded-full mx-auto hover:transition-transform hover:scale-110 hover:cursor-none`} priority alt="" /> */}
 
       <div className={`grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3`}>
         <div className={`card m-2 `}>
