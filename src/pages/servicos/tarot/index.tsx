@@ -11,8 +11,8 @@ export default function LeveTarotPage() {
       <NavbarDropdownMenuPages />
 
       <Fragment>
-        <span className={`w-full h-screen bg-fundo-dani-cartas bg-cover`}>
-          <h1 className={`text-center text-8xl square-peg-regular`}>Leve Tarot</h1>
+        <span className={`w-full h-screen bg-fundo-dani-cartas bg-cover xl:bg-contain`}>
+          <h1 className={`text-center text-8xl square-peg-regular pt-`}>Leve Tarot</h1>
         </span>
       </Fragment>
 
