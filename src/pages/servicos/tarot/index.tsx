@@ -12,7 +12,7 @@ export default function LeveTarotPage() {
 
       <Fragment>
         <span className={`w-full h-screen bg-fundo-dani-cartas bg-contain bg-no-repeat`}>
-          <h1 className={`text-left text-8xl square-peg-regular pt-56 xl:pl-96 xl:ml-40`}>Leve Tarot</h1>
+          <h1 className={`text-center text-8xl square-peg-regular pt-36`}>Leve Tarot</h1>
         </span>
       </Fragment>
 
