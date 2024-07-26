@@ -2,7 +2,6 @@ import NavbarDropdownMenuPages from "@/components/NavbarDropdownPages";
 import SpanWhatsapp from "@/components/SpanWhatsapp";
 import { Clock } from "@phosphor-icons/react";
 import Image from "next/image";
-import { Fragment } from "react";
 import "./styles.css";
 
 export default function LeveTarotPage() {
@@ -10,15 +9,7 @@ export default function LeveTarotPage() {
     <div className={`w-full min-h-screen flex flex-col bg-own-roxo text-zinc-100 overflow-hidden`} id="levetarotfull">
       <NavbarDropdownMenuPages />
 
-      <Fragment>
-        <span className={`w-full h-screen bg-fundo-dani-cartas bg-cover xl:bg-contain xl:bg-center xl:bg-no-repeat`}>
-          <h1 className={`text-center text-8xl square-peg-regular pt-`}>Leve Tarot</h1>
-        </span>
-      </Fragment>
-
-      {/* <h1 className={`text-center text-8xl square-peg-regular pt-8`}>Leve Tarot</h1> */}
-
-      {/* <Image src={`/danicartas.svg`} width={300} height={300} className={`rounded-full mx-auto hover:transition-transform hover:scale-110 hover:cursor-none`} priority alt="" /> */}
+      <h1 className={`text-center text-8xl square-peg-regular pt-8`}>Leve Tarot</h1>
 
       <div className={`grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3`}>
         <div className={`card m-2 `}>
@@ -27,7 +18,7 @@ export default function LeveTarotPage() {
           </div>
 
           <div className={`card-body bg-zinc-100 xl:h-96`}>
-            <p className={`text-center text-6xl text-zinc-400 pt-1 font-bold square-peg-regular pb-2`}>Perguntas</p>
+            <p className={`text-center text-6xl text-zinc-400 pt-1 font-bold square-peg-regular`}>Perguntas</p>
             <p className={`text-center xl:text-2xl text-zinc-400 px-1 py-8 font-pt-mono`}>Essa tiragem é pra você que tem perguntas específicas. Você pode fazer até 5 perguntas e as cartas serão tiradas nesta energia.</p>
           </div>
 
@@ -42,8 +33,8 @@ export default function LeveTarotPage() {
           </div>
 
           <div className={`card-body bg-zinc-100 xl:h-96`}>
-            <p className={`text-center text-6xl text-zinc-400 pt-1 font-bold square-peg-regular pb-2`}>Áreas da Vida</p>
-            <p className={`text-center xl:text-2xl text-zinc-400 px-1 py-8 font-pt-mono`}>Nesse formato, tiramos as cartas para fazer a leitura da energia da sua área pessoal, profissional, amorosa, familiar, financeira, de saúde e espiritual.</p>
+            <p className={`text-center text-6xl text-zinc-400 pt-1 font-bold square-peg-regular`}>Áreas da Vida</p>
+            <p className={`text-center xl:text-2xl text-zinc-400 px-1 py-8 font-pt-mono`}>Formato onde tiramos as cartas para leitura das áreas pessoal, profissional, amorosa, familiar, financeira, de saúde e espiritual.</p>
           </div>
 
           <div className={`card-footer bg-zinc-100 rounded-b-lg`}>
@@ -57,12 +48,12 @@ export default function LeveTarotPage() {
           </div>
 
           <div className={`card-body bg-zinc-100 xl:h-96`}>
-            <p className={`text-center text-6xl text-zinc-400 pt-1 font-bold square-peg-regular pb-2`}>Cruz Celta</p>
-            <p className={`text-center xl:text-2xl text-zinc-400 px-1 py-8 font-pt-mono`}>Um modelo em que nos debruçamos sobre uma situação, observando o que está a atravessando, o que está posto, que se tem conhecimento, o que está oculto, questões do passado e futuro recentes relacionados a situação, atitude atual, como os  outros interagem com esta questão, seus medos/esperanças e o possível resultado dessa situação vivida.</p>
+            <p className={`text-center text-6xl text-zinc-400 pt-1 font-bold square-peg-regular`}>Cruz Celta</p>
+            <p className={`text-center xl:text-2xl text-zinc-400 px-1 py-8 font-pt-mono`}>Aqui, olhamos a fundo uma situação, contemplando o que a atravessa e está posto, o oculto, presente, passado, futuro, você, sentimentos, o externo e possível resultado.</p>
           </div>
 
           <div className={`card-footer bg-zinc-100 rounded-b-lg`}>
-            <p className={` flex justify-center items-center gap-3 text-center xl:text-2xl text-zinc-400 px-1 py-4 font-pt-mono`}><Clock />aproximadamente 1 hora e 30 minutos.</p>
+            <p className={` flex justify-center items-center gap-3 text-center xl:text-2xl text-zinc-400 px-1 py-4 font-pt-mono`}><Clock />aproximadamente 1h30 minutos.</p>
           </div>
         </div>
 
@@ -72,12 +63,12 @@ export default function LeveTarotPage() {
           </div>
 
           <div className={`card-body bg-zinc-100 xl:h-96`}>
-            <p className={`text-center text-6xl text-zinc-400 pt-1 font-bold square-peg-regular pb-2`}>Ciclo Lunar</p>
-            <p className={`text-center xl:text-2xl text-zinc-400 px-1 py-8 font-pt-mono`}>Aqui, tiramos as cartas trazendo a previsão do seu ciclo lunar. Olhamos pras 4 fases (lua nova, lua crescente, lua cheia e lua minguante), trazendo a energia de cada uma e observando como as sugestões se relacionam. Excelente pra quem busca clareza, planejamento e ação. É possível fazer algumas perguntas durante a leitura.</p>
+            <p className={`text-center text-6xl text-zinc-400 pt-1 font-bold square-peg-regular`}>Ciclo Lunar</p>
+            <p className={`text-center xl:text-2xl text-zinc-400 px-1 py-8 font-pt-mono`}>Previsão do seu mês lunar, com a energia pra cada fase da lua (nova, crescente, cheia e minguante). Excelente pra quem busca clareza, planejamento e ação.</p>
           </div>
 
           <div className={`card-footer bg-zinc-100 rounded-b-lg`}>
-            <p className={` flex justify-center items-center gap-3 text-center xl:text-2xl text-zinc-400 px-1 py-4 font-pt-mono`}><Clock />aproximadamente 1 hora e 30 minutos.</p>
+            <p className={` flex justify-center items-center gap-3 text-center xl:text-2xl text-zinc-400 px-1 py-4 font-pt-mono`}><Clock />aproximadamente 1h30 minutos.</p>
           </div>
         </div>
 
@@ -87,12 +78,13 @@ export default function LeveTarotPage() {
           </div>
 
           <div className={`card-body bg-zinc-100 xl:h-96`}>
-            <p className={`text-center text-6xl text-zinc-400 pt-1 font-bold square-peg-regular pb-2`}>Ano Novo Pessoal</p>
-            <p className={`text-center xl:text-2xl text-zinc-400 px-1 py-8 font-pt-mono`}>Essa é sua tiragem de aniversário, feita a partir de sua data de aniversário, com a manifestação da energia pra cada um dos meses do seu novo ciclo, até a data do próximo.</p>
+            <p className={`text-center text-6xl text-zinc-400 pt-1 font-bold square-peg-regular`}>Ano Novo Pessoal</p>
+            <p className={`text-center xl:text-2xl text-zinc-400 px-1 py-8 font-pt-mono`}>Essa é sua tiragem de aniversário. Ela contempla a energia de cada um dos 12 meses do seu novo ciclo.
+              Também se aplica a Ano Novo.</p>
           </div>
 
           <div className={`card-footer bg-zinc-100 rounded-b-lg`}>
-            <p className={` flex justify-center items-center gap-3 text-center xl:text-2xl text-zinc-400 px-1 py-4 font-pt-mono`}><Clock />aproximadamente 1 hora e 30 minutos.</p>
+            <p className={` flex justify-center items-center gap-3 text-center xl:text-2xl text-zinc-400 px-1 py-4 font-pt-mono`}><Clock />aproximadamente 1h30 minutos.</p>
           </div>
         </div>
 
@@ -102,8 +94,8 @@ export default function LeveTarotPage() {
           </div>
 
           <div className={`card-body bg-zinc-100 xl:h-96`}>
-            <p className={`text-center text-6xl text-zinc-400 pt-1 font-bold square-peg-regular pb-2`}>Tarot Astrológico</p>
-            <p className={`text-center xl:text-2xl text-zinc-400 px-1 py-8 font-pt-mono`}>Essa é uma leitura mais ampla. Ela traz um olhar sobre seus aspectos naturais, olhando sua energia de ação, material, mental e emocional. E, segue contemplando as 12 casas astrológicas. Cada casa astrológica é representada por um signo, que, por sua vez, manifesta uma temática da nossa vida. Observação: não é mapa astral e não precisa ter mapa astral.</p>
+            <p className={`text-center text-6xl text-zinc-400 pt-1 font-bold square-peg-regular`}>Tarot Astrológico</p>
+            <p className={`text-center xl:text-2xl text-zinc-400 px-1 py-8 font-pt-mono`}>Aqui, fazemos uma mandala com as 12 casas astrológicas, onde cada signo representa um aspecto da vida. São vistos aspectos práticos e profundos.</p>
           </div>
 
           <div className={`card-footer bg-zinc-100 rounded-b-lg`}>
