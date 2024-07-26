@@ -12,7 +12,7 @@ export default function SpanWhatsapp() {
           rel="noopener noreferrer"
           className={`my-16 flex justify-center items-center`}
         >
-          <p className={`text-center text-5xl text-wrap px-4 font-allura`}>Entre em contato:</p>
+          <p className={`text-center text-4xl text-wrap px-4 font-allura`}>Entre em contato:</p>
           <WhatsappLogo size={48} weight="thin" className={`mx-auto text-zinc-100`} />
         </Link>
       </Fragment>
