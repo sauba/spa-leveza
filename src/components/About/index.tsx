@@ -4,11 +4,11 @@ export default function About() {
   return (
     <div className={`
         w-full
-        min-h-screen
+        py-14
         about
         flex
         flex-col
-        justify-center
+        justify-start
         items-center
         text-center
         outline-none
