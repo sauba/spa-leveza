@@ -5,7 +5,6 @@ export default function About() {
     <div className={`
         w-full
         min-h-screen
-        py-14
         about
         flex
         flex-col
