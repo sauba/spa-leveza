@@ -5,8 +5,8 @@ import { Fragment } from "react"
 
 export default function NavbarDropdownMenu() {
   return (
-    <div className="flex justify-center items-center bg-own-roxo border-none outline-none overflow-hidden">
-      <Menu as="div" className="w-full relative bg-own-roxo border-none outline-none">
+    <div className="flex justify-center items-center bg-own-purple-light border-none outline-none overflow-hidden">
+      <Menu as="div" className="w-full relative bg-own-purple-light border-none outline-none">
         {({ open }) => (
           <Fragment>
             <Menu.Button className="inline-flex justify-center items-center rounded-md text-zinc-100 border-none outline-none">
@@ -39,8 +39,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center                                                       
                            ${active
-                            ? "bg-own-roxo border-none cursor-pointer text-zinc-100 font-thin hover:text-green-500 hover:rounded-x-2xl"
-                            : "text-zinc-100 font-thin"
+                            ? "bg-own-purple-light border-none cursor-pointer text-zinc-100 font-thin hover:rounded-x-2xl"
+                            : "bg-own-roxo text-zinc-100 font-thin"
                           }
                          `}
                       >
@@ -70,8 +70,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-own-roxo border-none cursor-pointer text-zinc-100 font-thin hover:text-green-500 hover:rounded-x-2xl hover:xl:text-2xl"
-                            : "text-zinc-100 font-thin"
+                            ? "bg-own-purple-light border-none cursor-pointer text-zinc-100 font-thin hover:rounded-x-2xl hover:xl:text-2xl"
+                            : "bg-own-roxo text-zinc-100 font-thin"
                           }
                          `}
                       >
@@ -101,8 +101,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-own-roxo border-none cursor-pointer text-zinc-100 text-center font-thin hover:text-green-500 hover:rounded-x-2xl"
-                            : "text-zinc-100 font-thin"
+                            ? "bg-own-purple-light border-none cursor-pointer text-zinc-100 text-center font-thin hover:rounded-x-2xl"
+                            : "bg-own-roxo text-zinc-100 font-thin"
                           }
                          `}
                       >
@@ -132,8 +132,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-own-roxo border-none cursor-pointer text-zinc-100 font-thin hover:text-green-500 hover:rounded-x-2xl"
-                            : "text-zinc-100 font-thin"
+                            ? "bg-own-purple-light border-none cursor-pointer text-zinc-100 font-thin hover:rounded-x-2xl"
+                            : "bg-own-roxo text-zinc-100 font-thin"
                           }
                          `}
                       >
