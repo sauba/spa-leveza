@@ -70,7 +70,7 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-own-roxo border-none cursor-pointer text-zinc-100 font-thin hover:rounded-x-2xl hover:xl:text-2xl"
+                            ? "bg-own-roxo border-none cursor-pointer text-zinc-100 font-thin hover:text-green-500 hover:rounded-x-2xl hover:xl:text-2xl"
                             : "text-zinc-100 font-thin"
                           }
                          `}
