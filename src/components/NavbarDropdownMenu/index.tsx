@@ -1,6 +1,7 @@
 import { Menu, Transition } from "@headlessui/react"
 import { House, ListBullets } from "@phosphor-icons/react"
 import { Fragment } from "react"
+import Logo from "../Logo"
 
 export default function NavbarDropdownMenu() {
   return (
@@ -28,6 +29,8 @@ export default function NavbarDropdownMenu() {
             >
               <Menu.Items className="w-full min-h-screen justify-center items-center bg-own-roxo z-50">
                 <div className="w-full flex-col justify-center items-center">
+                  <Logo />
+
                   <Menu.Item>
                     {({ active }) => (
                       <div
