@@ -5,48 +5,47 @@ import { Fragment } from "react"
 
 export default function NavbarDropdownMenu() {
   return (
-    <div className="flex justify-center items-center bg-own-purple-light border-none outline-none overflow-hidden">
-      <Menu as="div" className="w-full relative bg-own-purple-light border-none outline-none">
-        {({ open }) => (
-          <Fragment>
-            <Menu.Button className="inline-flex justify-center items-center rounded-md text-zinc-100 border-none outline-none">
-              <ListBullets
-                size={56}
-                weight="bold"
-                className={`px-2 border-none outline-none hover:cursor-pointer text-zinc-100`}
-              />
-            </Menu.Button>
+    <div className="flex justify-center items-center border-none outline-none overflow-hidden">
+      <Menu as="div" className="w-full ne-none">
+        {({ Fragment>
+          <Menu.Button className="inline-flex justify-center items-center rounded-md text-zinc-100 border-none outline-none">
+            <ListBullets
+              size={56}
+              weight="bold"
+              className={`px-2 border-none outline-none hover:cursor-pointer text-zinc-100`}
+            />
+          </Menu.Button>
 
             {/* Menu Items */}
-            <Transition
-              show={open}
-              enter="transform transition duration-100 ease-in"
-              enterFrom="opacity-0 scale-95"
-              enterTo="opacity-100 scale-100"
-              leave="transform transition duration-75 ease-out"
-              leaveFrom="opacity-100 scale-100"
-              leaveTo="opacity-0 scale-95"
-            >
-              <Menu.Items className="w-full min-h-screen justify-center items-center z-50">
-                <div className="w-full flex-col justify-center items-center">
-                  <Image src={`/logo.svg`} width={600} height={600} alt="Leveza Para Viver logo" className={`cursor-none mx-auto`} priority />
+        <Transition
+          show={open}
+          enter="transform transition duration-100 ease-in"
+          enterFrom="opacity-0 scale-95"
+          enterTo="opacity-100 scale-100"
+          leave="transform transition duration-75 ease-out"
+          leaveFrom="opacity-100 scale-100"
+          leaveTo="opacity-0 scale-95"
+        >
+          <Menu.Items className="w-full min-h-screen justify-center items-center z-50">
+            <div className="w-full flex-col justify-center items-center">
+              <Image src={`/logo.svg`} width={600} height={600} alt="Leveza Para Viver logo" className={`cursor-none mx-auto`} priority />
 
-                  <Menu.Item>
-                    {({ active }) => (
-                      <div
-                        className={`
+              <Menu.Item>
+                {({ active }) => (
+                  <div
+                    className={`
                            flex
                            justify-center
                            items-center                                                       
                            ${active
-                            ? "bg-own-purple-light border-none cursor-pointer text-zinc-100 font-thin hover:rounded-x-2xl"
-                            : "bg-own-roxo text-zinc-100 font-thin"
-                          }
+                        ? "border-none cursor-pointer text-zinc-100 font-thin hover:rounded-x-2xl"
+                        : "text-zinc-100 font-thin"
+                      }
                          `}
-                      >
-                        <a
-                          href="/"
-                          className={`
+                  >
+                    <a
+                      href="/"
+                      className={`
                              flex
                              items-center
                              px-4
@@ -54,30 +53,30 @@ export default function NavbarDropdownMenu() {
                              text-sm
                              hover:text-lg
                            `}
-                        >
-                          <House size={32} weight="bold" className={`text-zinc-200`} />
-                        </a>
-                      </div>
-                    )}
-                  </Menu.Item>
+                    >
+                      <House size={32} weight="bold" className={`text-zinc-200`} />
+                    </a>
+                  </div>
+                )}
+              </Menu.Item>
 
-                  <Menu.Item>
-                    {({ active }) => (
-                      <div
-                        className={`
+              <Menu.Item>
+                {({ active }) => (
+                  <div
+                    className={`
                            flex
                           
                            justify-center
                            items-center
                            ${active
-                            ? "bg-own-purple-light border-none cursor-pointer text-zinc-100 font-thin hover:rounded-x-2xl hover:xl:text-2xl"
-                            : "bg-own-roxo text-zinc-100 font-thin"
-                          }
+                        ? "border-none cursor-pointer text-zinc-100 font-thin hover:rounded-x-2xl hover:xl:text-2xl"
+                        : "text-zinc-100 font-thin"
+                      }
                          `}
-                      >
-                        <a
-                          href="#levetarot"
-                          className={`
+                  >
+                    <a
+                      href="#levetarot"
+                      className={`
                              flex
                              items-center
                              px-4
@@ -85,30 +84,30 @@ export default function NavbarDropdownMenu() {
                              text-2xl
                              xl:text-3xl
                            `}
-                        >
-                          Leve Tarot
-                        </a>
-                      </div>
-                    )}
-                  </Menu.Item>
+                    >
+                      Leve Tarot
+                    </a>
+                  </div>
+                )}
+              </Menu.Item>
 
-                  <Menu.Item>
-                    {({ active }) => (
-                      <div
-                        className={`
+              <Menu.Item>
+                {({ active }) => (
+                  <div
+                    className={`
                            flex
                           
                            justify-center
                            items-center
                            ${active
-                            ? "bg-own-purple-light border-none cursor-pointer text-zinc-100 text-center font-thin hover:rounded-x-2xl"
-                            : "bg-own-roxo text-zinc-100 font-thin"
-                          }
+                        ? "border-none cursor-pointer text-zinc-100 text-center font-thin hover:rounded-x-2xl"
+                        : "text-zinc-100 font-thin"
+                      }
                          `}
-                      >
-                        <a
-                          href="#levezaselvagem"
-                          className={`
+                  >
+                    <a
+                      href="#levezaselvagem"
+                      className={`
                              flex
                              items-center
                              text-center
@@ -117,29 +116,29 @@ export default function NavbarDropdownMenu() {
                              text-2xl
                              xl:text-3xl
                            `}
-                        >
-                          Leveza Selvagem
-                        </a>
-                      </div>
-                    )}
-                  </Menu.Item>
+                    >
+                      Leveza Selvagem
+                    </a>
+                  </div>
+                )}
+              </Menu.Item>
 
-                  <Menu.Item>
-                    {({ active }) => (
-                      <div
-                        className={`
+              <Menu.Item>
+                {({ active }) => (
+                  <div
+                    className={`
                            flex
                            justify-center
                            items-center
                            ${active
-                            ? "bg-own-purple-light border-none cursor-pointer text-zinc-100 font-thin hover:rounded-x-2xl"
-                            : "bg-own-roxo text-zinc-100 font-thin"
-                          }
+                        ? "border-none cursor-pointer text-zinc-100 font-thin hover:rounded-x-2xl"
+                        : "text-zinc-100 font-thin"
+                      }
                          `}
-                      >
-                        <a
-                          href="#contato"
-                          className={`
+                  >
+                    <a
+                      href="#contato"
+                      className={`
                              flex
                              items-center
                              px-4
@@ -148,18 +147,18 @@ export default function NavbarDropdownMenu() {
                              text-2xl
                              xl:text-3xl
                            `}
-                        >
-                          Contato
-                        </a>
-                      </div>
-                    )}
-                  </Menu.Item>
-                </div>
-              </Menu.Items>
-            </Transition>
-          </Fragment>
+                    >
+                      Contato
+                    </a>
+                  </div>
+                )}
+              </Menu.Item>
+            </div>
+          </Menu.Items>
+        </Transition>
+      </Fragment>
         )}
-      </Menu>
-    </div>
+    </Menu>
+    </div >
   )
 }
