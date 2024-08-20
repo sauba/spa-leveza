@@ -1,7 +1,7 @@
 import { Menu, Transition } from "@headlessui/react"
 import { House, ListBullets } from "@phosphor-icons/react"
+import Image from "next/image"
 import { Fragment } from "react"
-import Logo from "../Logo"
 
 export default function NavbarDropdownMenu() {
   return (
@@ -29,7 +29,7 @@ export default function NavbarDropdownMenu() {
             >
               <Menu.Items className="w-full min-h-screen justify-center items-center z-50">
                 <div className="w-full flex-col justify-center items-center">
-                  <Logo />
+                  <Image src={`/logo.svg`} width={600} height={600} alt="Leveza Para Viver logo" className={`cursor-none mx-auto`} priority />
 
                   <Menu.Item>
                     {({ active }) => (
