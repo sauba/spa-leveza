@@ -5,11 +5,11 @@ import Logo from "../Logo"
 
 export default function NavbarDropdownMenu() {
   return (
-    <div className="flex justify-center items-center border-none outline-none overflow-hidden">
-      <Menu as="div" className="w-full relative border-none outline-none">
+    <div className="flex justify-center items-center bg-own-roxo border-none outline-none overflow-hidden">
+      <Menu as="div" className="w-full relative bg-own-roxo border-none outline-none">
         {({ open }) => (
           <Fragment>
-            <Menu.Button className="inline-flex justify-center items-center rounded-md text-zinc-100 bg-own-roxo border-none outline-none">
+            <Menu.Button className="inline-flex justify-center items-center rounded-md text-zinc-100 border-none outline-none">
               <ListBullets
                 size={56}
                 weight="bold"
@@ -27,7 +27,7 @@ export default function NavbarDropdownMenu() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Menu.Items className="w-full min-h-screen justify-center items-center bg-own-roxo z-50">
+              <Menu.Items className="w-full min-h-screen justify-center items-center z-50">
                 <div className="w-full flex-col justify-center items-center">
                   <Logo />
 
