@@ -26,7 +26,7 @@ export default function NavbarDropdownMenu() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Menu.Items className="w-full min-h-screen justify-center items-center bg-zinc-100 z-50">
+              <Menu.Items className="w-full min-h-screen justify-center items-center bg-own-roxo z-50">
                 <div className="w-full flex-col justify-center items-center">
                   <Menu.Item>
                     {({ active }) => (
@@ -36,8 +36,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center                                                       
                            ${active
-                            ? "bg-zinc-400 border-none cursor-pointer text-zinc-400 font-thin hover:rounded-x-2xl"
-                            : "text-zinc-400 font-thin"
+                            ? "bg-own-roxo border-none cursor-pointer text-zinc-100 font-thin hover:rounded-x-2xl"
+                            : "text-zinc-100 font-thin"
                           }
                          `}
                       >
@@ -67,8 +67,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-zinc-400 border-none cursor-pointer text-zinc-100 font-thin hover:rounded-x-2xl hover:xl:text-2xl"
-                            : "text-zinc-400 font-thin"
+                            ? "bg-own-roxo border-none cursor-pointer text-zinc-100 font-thin hover:rounded-x-2xl hover:xl:text-2xl"
+                            : "text-zinc-100 font-thin"
                           }
                          `}
                       >
@@ -98,8 +98,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-zinc-400 border-none cursor-pointer text-zinc-100 text-center font-thin hover:rounded-x-2xl"
-                            : "text-zinc-400 font-thin"
+                            ? "bg-own-roxo border-none cursor-pointer text-zinc-100 text-center font-thin hover:rounded-x-2xl"
+                            : "text-zinc-100 font-thin"
                           }
                          `}
                       >
@@ -129,41 +129,8 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-zinc-400 border-none cursor-pointer text-zinc-100 font-thin hover:rounded-x-2xl"
-                            : "text-zinc-400 font-thin"
-                          }
-                         `}
-                      >
-                        <a
-                          href="#produtos"
-                          className={`
-                             flex
-                             items-center
-                             px-4
-                             py-2
-                             text-2xl
-                             xl:text-3xl
-                             gap-3
-                             font-thin
-                             hover:cursor-none
-                           `}
-                        >
-                          Caixinha da Leveza
-                        </a>
-                      </div>
-                    )}
-                  </Menu.Item>
-
-                  <Menu.Item>
-                    {({ active }) => (
-                      <div
-                        className={`
-                           flex
-                           justify-center
-                           items-center
-                           ${active
-                            ? "bg-zinc-400 border-none cursor-pointer text-zinc-100 font-thin hover:rounded-x-2xl"
-                            : "text-zinc-400 font-thin"
+                            ? "bg-own-roxo border-none cursor-pointer text-zinc-100 font-thin hover:rounded-x-2xl"
+                            : "text-zinc-100 font-thin"
                           }
                          `}
                       >
