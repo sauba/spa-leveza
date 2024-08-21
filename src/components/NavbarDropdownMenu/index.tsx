@@ -5,7 +5,7 @@ import { Fragment } from "react"
 
 export default function NavbarDropdownMenu() {
   return (
-    <div className="flex justify-center items-center bg-own-roxo border-none outline-none overflow-hidden">
+    <div className="flex justify-center items-center border-none outline-none overflow-hidden">
       <Menu as="div" className="w-full relative border-none outline-none">
         {({ open }) => (
           <Fragment>
@@ -27,7 +27,7 @@ export default function NavbarDropdownMenu() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Menu.Items className="w-full min-h-screen justify-center items-center z-50">
+              <Menu.Items className="w-full bg-own-roxo min-h-screen justify-center items-center z-50">
                 <div className="w-full flex-col justify-center items-center">
                   <Image src={`/logo.svg`} width={600} height={600} alt="Leveza Para Viver logo" className={`cursor-none mx-auto`} priority />
 
@@ -39,7 +39,7 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center                                                       
                            ${active
-                            ? "bg-own-roxo border-none cursor-pointer text-zinc-100 font-thin hover:text-green-500 hover:rounded-x-2xl"
+                            ? "border-none cursor-pointer font-thin hover:rounded-x-2xl"
                             : "text-zinc-100 font-thin"
                           }
                          `}
@@ -70,7 +70,7 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-own-roxo border-none cursor-pointer text-zinc-100 font-thin hover:rounded-x-2xl hover:xl:text-2xl"
+                            ? "bg-own-pink border-none cursor-pointer text-green-500 font-thin hover:rounded-x-2xl hover:xl:text-2xl"
                             : "text-zinc-100 font-thin"
                           }
                          `}
@@ -101,7 +101,7 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-own-roxo border-none cursor-pointer text-zinc-100 text-center font-thin hover:text-green-500 hover:rounded-x-2xl"
+                            ? "bg-own-pink border-none cursor-pointer text-green-500 text-center font-thin"
                             : "text-zinc-100 font-thin"
                           }
                          `}
@@ -132,7 +132,7 @@ export default function NavbarDropdownMenu() {
                            justify-center
                            items-center
                            ${active
-                            ? "bg-own-roxo border-none cursor-pointer text-zinc-100 font-thin hover:text-green-500 hover:rounded-x-2xl"
+                            ? "bg-own-pink border-none cursor-pointer text-green-500 font-thin hover:text-green-500 hover:rounded-x-2xl"
                             : "text-zinc-100 font-thin"
                           }
                          `}
